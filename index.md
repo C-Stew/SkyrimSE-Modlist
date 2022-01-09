@@ -17,7 +17,7 @@ This mod list uses ESO & UI’s [SKYRIM SE MICRO MOD LIST – V1.2](https://eso-
 **Storage:**
 - ___GB Available + Skyrim SE File Size (Approx. 14GB)
 
-**According to ESO & UI’s SKYRIM SE MOD LISTS page*
+**According to ESO & UI’s [SKYRIM SE MOD LISTS](https://eso-ui.com/skyrim-se/) page*
 
 *I have yet to test the full pack, so I am currently unable to vouch for the performance at this time.*
 
