@@ -19,7 +19,7 @@ This mod list also incorporates ENB, a post-processing program that enhances vis
 - 16GB DDR4-2933MHz
 
 **Storage Requirements:**
-- <>GB for Archives + <>GB for Mod Files + Skyrim SE (Approx. 13GB)
+- 7.9GB for Archives + 11.8GB for Mod Files + Skyrim SE (Approx. 13GB Base, 24.5GB after Mods)
 
 **According to ESO & UI’s [SKYRIM SE MOD LISTS](https://eso-ui.com/skyrim-se/) page*
 
@@ -35,7 +35,7 @@ When downloading mods, use the `MOD MANAGER DOWNLOAD` button unless otherwise sp
 If Vortex shows any mod conflicts in the upper right corner, **always load the mods in the order of this list**. Mods downloaded first should be loaded **before** mods downloaded after them. This way features won’t be unintentionally overridden by other mods.
 
 ## ESO & UI's List (including patches)
-**When downloading mods, use the specified version unless replaced by a newer build!**
+**When downloading mods, use the specified version unless replaced by a newer build! If no version is specified, download the latest Main File!**
 
 **If a mod is no longer available, proceed without it as it will likely work anyway.**
 - [SSE Engine Fixes](https://github.com/aers/EngineFixesSkyrim64/releases/)
@@ -139,9 +139,39 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
   - Hit `Deploy`
 - [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703?tab=files)
   - Download **RUSTIC CLOTHING - Special Edition - 2K**
+  - Load RUSIC CLOTHING AFTER SMIM
+  - Hit `Deploy`
+- [Happy Little Trees](https://www.nexusmods.com/skyrimspecialedition/mods/50961?tab=files)
+  - When prompted, select `All Trees` and `Tree Size`
+  - Load Happy Little Trees AFTER SMIM, UV-tweaks, and Noble Skyrim
+  - Hit `Deploy`
+- [Folkvangr - Grass and Landscape Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/44899?tab=files)
+  - Load Folkvangr AFTER Noble Skyrim
+  - Hit `Deploy`
+- [Aspens Ablaze](https://www.nexusmods.com/skyrimspecialedition/mods/39998?tab=files)
+  - Choose `Autumnal` or `Autumnal Variety` (recommended)
+  - Leave `Install` unchecked for LOD Assets
+  - Load Aspens Ablaze AFTER Happy Little Trees
+  - Hit `Deploy`
+- [Enhanced Lights and FX](https://www.nexusmods.com/skyrimspecialedition/mods/2424?tab=files)
+  - Set Ambience to `None` and leave Exterior alone
+  - Select both SMIM patches
+  - Check `Torches` in Optionals
+  - Load ELFX BEFORE SMIM
+  - Load ELFX BEFORE RUGNAROK
+  - Load ELFX AFTER UV-tweaks
+  - Hit `Deploy`
+- [SFCO](https://www.nexusmods.com/skyrimspecialedition/mods/2414?tab=files)
+  - Download **Snazzy Furniture and Clutter Overhaul SE** and **Snazzy Furniture and Clutter Overhaul SE - Patches**
+  - Select Mix-n-Match Plugin - USSEP Version
+  - Choose `Standard` if **not using ENB**, choose `De-saturated` if you **are using ENB**
+  - For patches, select `Cutting Room Floor`, `Enhanced Lights and FX`, `Immersive Citizens`, and both `JK's` options.
+  - Load SFCO AFTER SMIM
+  - Hit `Deploy`
+- More to come!
 
 ## My Additions
-**When downloading mods, use the specified version unless replaced by a newer build!**
+**When downloading mods, use the specified version unless replaced by a newer build! If no version is specified, download the latest Main File!**
 
 **If a mod is no longer available, proceed without it as it will likely work anyway.**
 
