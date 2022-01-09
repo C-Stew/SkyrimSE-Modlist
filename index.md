@@ -17,7 +17,7 @@ This mod list also incorporates ENB, a post-processing program that enhances vis
 - 16GB DDR4-2933MHz
 
 **Storage:**
-- 4150 MB Available + Skyrim SE File Size (Approx. 14GB)
+- 4784 MB Available + Skyrim SE File Size (Approx. 14GB)
 
 **According to ESO & UI’s [SKYRIM SE MOD LISTS](https://eso-ui.com/skyrim-se/) page*
 
@@ -26,9 +26,9 @@ This mod list also incorporates ENB, a post-processing program that enhances vis
 This guide is designed to be as user-friendly as possible and accessible to those with zero previous modding experience!
 
 ## Pre-Installation
-I use [Vortex](https://www.nexusmods.com/about/vortex/) to install and manage mods. For a comprehensive usage and setup guide, Ultimate Immersion has an intuitive video [here](https://www.youtube.com/watch?v=EyDtcYuDd9w) on setting up your Skyrim installation and Vortex to be mod-ready. **It also covers installing SKSE64, a crucial plugin that requires manual installation. Make sure you download *Legacy SE build 2.0.20 (runtime 1.5.97)*, NOT the *Latest AE Build!***
+I use [Vortex](https://www.nexusmods.com/about/vortex/) to install and manage mods. For a comprehensive usage and setup guide, Ultimate Immersion has an intuitive video [here](https://www.youtube.com/watch?v=EyDtcYuDd9w) on setting up your Skyrim installation and Vortex to be mod-ready. **It also covers installing SKSE64, a crucial plugin that requires manual installation. Make sure you download `Legacy SE build 2.0.20 (runtime 1.5.97)`, NOT `Latest AE Build!`**
 
-When downloading mods, use the **MOD MANAGER DOWNLOAD** button unless otherwise specified. Do note that Nexus limits Non-premium users to one 2MB/s download at a time, so patience is a must. If you get a pop-up in your browser asking to open a link with Vortex, **select Open Vortex**. It will automatically begin downloading the mod within Vortex.
+When downloading mods, use the `MOD MANAGER DOWNLOAD` button unless otherwise specified. Do note that Nexus limits Non-premium users to one 1-2MB/s download at a time, so patience is a must. If you get a pop-up in your browser asking to open a link with Vortex, select `Open Vortex`. It will automatically begin downloading the mod within Vortex.
 
 If Vortex shows any mod conflicts in the upper right corner, **always load the mods in the order of this list**. Mods downloaded first should be loaded **before** mods downloaded after them. This way features won’t be unintentionally overridden by other mods.
 
@@ -61,12 +61,51 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
 - [Water for ENB USSEP and Location Patches](https://www.nexusmods.com/skyrimspecialedition/mods/50394?tab=files)
   - *If you don't plan to use ENB, **do not** install this mod.*
   - Download **WENB Shades USSEP Patch**
-  - Once deployed, go to `Plugins` in Vortex and select `Manage Rules` in the orange bar.
-  - Add a rule stating *water for enb (shades of skyrim).esp needs to load after wenb shades ussep.enb*
-    - USSEP is already first after DLC, so don't worry about adding a rule for it. 
 - [Noble Skyrim Mod HD-2K](https://www.nexusmods.com/skyrimspecialedition/mods/21423?tab=files)
-  - Download **A. Noble Skyrim - FULL PACK_2K** or **B. Noble Skyrim - FULL PACK_Performance Edition**, and **NSM - SMIM Patch**
+  - Download **A. Noble Skyrim - FULL PACK_2K** (recommended) or **B. Noble Skyrim - FULL PACK_Performance Edition** (recommended for low-end systems), and **NSM - SMIM Patch**
   - This download will take a while, but **do not skip it for later**!
+- [Enhanced textures detail (UV-tweaks)](https://www.nexusmods.com/skyrimspecialedition/mods/992?tab=files)
+  - Check `Install SMIM Conflicting Files` when prompted!
+  - On the next page, select `I want it all!` and leaved the above boxes unchecked.
+  - On the next page, only check `Farmhouses with 3D Ropes`.
+  - The next option is up to preference, but I use `None`.
+  - On the next page, leave all boxes unchecked, and select Finish.
+  - Now we have *many* file conflicts!
+    - Load Noble Skyrim AFTER UV-tweaks
+    - Load Noble Skyrim BEFORE its SMIM Patch
+    - Load Noble Skyrim AFTER SMIM
+    - Load UV-tweaks BEFORE SMIM
+    - Load UV-tweaks BEFORE Water for ENB
+    - Load NSM SMIM Patch AFTER SMIM
+  - Hit `Deploy`
+- [Fluffy Snow](https://www.nexusmods.com/skyrimspecialedition/mods/8955?tab=files)
+  - Download **Fluffy Snow - 2K** (recommended) or **Fluffy Snow - 1K** (slight performance boost), **Fluffy Snow - Blended Roads Patch**, **Fluffy Snow for Majestic Mountains - 2K (MM1.8 and newer)**, and **Fluffy Snow Windhelm Bridge and Street Fix**.
+  - Load Noble Skyrim BEFORE Fluffy Snow
+  - Hit `Deploy`
+- [XPMSSE](https://www.nexusmods.com/skyrimspecialedition/mods/1988?tab=files)
+  - Requires allowing adult content on your account (the page and mod (how we will use it) contain no NSFW content)
+  - When prompted, select `Physics Extensions`
+  - On the next page, select `Racemenu`
+    - We will install this later, as well as FNIS SE
+  - On the next page, select `None`
+  - On the next page, leave all settings as `None`
+  - On the next **two** pages, leave `Axes on Back` unchecked and select `None`
+  - On the next **three** pages, select `None` for all options
+    - *This is why the mod is considered adult...*
+  - If Vortex shows `Plugin dependencies unfulfilled`, ignore this as it will be solved later.
+- [Majestic Mountains](https://www.nexusmods.com/skyrimspecialedition/mods/11052?tab=files)
+  - When prompted, select `Snow Mountain New version ESL` and `Moss Rocks ESL version`
+  - Choose Sun Direction **None if using ENB**, and **North or South without ENB**.
+  - Finish the installation for this mod.
+  - Now even *more* unresolved file conflicts!
+    - Load Majestic Mountains AFTER SMIM
+    - Load Majestic Mountains AFTER UV-tweaks
+    - Load Majestic Mountains BEFORE Fluffy Snow
+    - Load Majestic Mountains AFTER Noble Skyrim
+  - Vortex will say **Fluffy Snow for Majestic Mountains - 2K (MM1.8 and newer)** is redundant. Ignore this warning, as it shouldn't be the case.
+  - Hit `Deploy`
+- [FNIS SE](https://www.nexusmods.com/skyrimspecialedition/mods/3038?tab=files)
+  - *To Be Added*
 
 ## My Additions
 **When downloading mods, use the specified version unless replaced by a newer build!**
