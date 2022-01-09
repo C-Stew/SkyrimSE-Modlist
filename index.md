@@ -2,7 +2,9 @@
 ## Foreword
 This mod list uses the **now outdated 1.5.97 version** of Skyrim SE. If you have updated to or are using the Anniversary Edition, use [this mod](https://www.nexusmods.com/skyrimspecialedition/mods/57618) to downgrade to the compatible SE version. It is also incompatible with Skyrim: Legendary Edition, the original game with all DLC Add-ons, and Skyrim VR, the Virtual Reality version of Skyrim SE, due to many mods not supporting those versions of the game.
 
-This mod list uses ESO & UI’s [SKYRIM SE MICRO MOD LIST – V1.2](https://eso-ui.com/skyrim-se-micro-list/) as a base. It is recommended to use my list as it contains updated instructions since the release of Anniversary Edition, but you can skip the *ESO & UI’s List* section if you choose to install them according to their website. Either way, you should get the same result.
+This mod list uses ESO & UI’s [SKYRIM SE MICRO MOD LIST – V1.2](https://eso-ui.com/skyrim-se-micro-list/) as a base. It is recommended to use my list as it contains updated instructions since the release of Anniversary Edition, and includes some patches to make mods work better together.
+
+This mod list also incorporates ENB, a post-processing program that enhances visuals drastically. If you experience performance issues or are running on a low-end system, test with ENB off. **Certain mods rely on ENB being present, and they will need to be removed if ENB is not in use.**
 
 **System Requirements*** **(and AMD equivalent):**
 - NVIDIA GTX 1050 \| AMD HD 7870
@@ -15,7 +17,7 @@ This mod list uses ESO & UI’s [SKYRIM SE MICRO MOD LIST – V1.2](https://eso-
 - 16GB DDR4-2933MHz
 
 **Storage:**
-- 1140 MB Available + Skyrim SE File Size (Approx. 14GB)
+- 4150 MB Available + Skyrim SE File Size (Approx. 14GB)
 
 **According to ESO & UI’s [SKYRIM SE MOD LISTS](https://eso-ui.com/skyrim-se/) page*
 
@@ -30,7 +32,7 @@ When downloading mods, use the **MOD MANAGER DOWNLOAD** button unless otherwise 
 
 If Vortex shows any mod conflicts in the upper right corner, **always load the mods in the order of this list**. Mods downloaded first should be loaded **before** mods downloaded after them. This way features won’t be unintentionally overridden by other mods.
 
-## ESO & UI's List
+## ESO & UI's List (including patches)
 **When downloading mods, use the specified version unless replaced by a newer build!**
 
 **If a mod is no longer available, proceed without it as it will likely work anyway.**
@@ -46,6 +48,25 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
 - [Unofficial Skyrim Special Edition Patch](https://www.nexusmods.com/skyrimspecialedition/mods/266?tab=files)
 - [SkyUI](https://www.nexusmods.com/skyrimspecialedition/mods/12604?tab=files)
 - [Static Mesh Improvement Mod - SMIM](https://www.nexusmods.com/skyrimspecialedition/mods/659?tab=files)
+  - When prompted, select `Skyrim 2016 Special Edition: Everything`
+- [Water for ENB](https://www.nexusmods.com/skyrimspecialedition/mods/37061?tab=files)
+  - *If you don't plan to use ENB, **do not** install this mod.*
+  - When prompted, select `Shades of Skyrim` and `No iNeed Support`, then Select LOD Brightness
+  - Here, select `Default LOD Water`, then select Water Texture Resolution
+  - This is up to preference, but I use `2K`. Select Waterfalls And Effects Add-On next.
+  - Pick the same resolution as the previous selection, or None, then select Patches.
+  - Leave all boxes unchecked and select Finish.
+  - **Vortex will now show a file conflict. Load SMIM *BEFORE* Water for ENB!**
+  - Hit `Deploy` in the pop-up.
+- [Water for ENB USSEP and Location Patches](https://www.nexusmods.com/skyrimspecialedition/mods/50394?tab=files)
+  - *If you don't plan to use ENB, **do not** install this mod.*
+  - Download **WENB Shades USSEP Patch**
+  - Once deployed, go to `Plugins` in Vortex and select `Manage Rules` in the orange bar.
+  - Add a rule stating *water for enb (shades of skyrim).esp needs to load after wenb shades ussep.enb*
+    - USSEP is already first after DLC, so don't worry about adding a rule for it. 
+- [Noble Skyrim Mod HD-2K](https://www.nexusmods.com/skyrimspecialedition/mods/21423?tab=files)
+  - Download **A. Noble Skyrim - FULL PACK_2K** or **B. Noble Skyrim - FULL PACK_Performance Edition**, and **NSM - SMIM Patch**
+  - This download will take a while, but **do not skip it for later**!
 
 ## My Additions
 **When downloading mods, use the specified version unless replaced by a newer build!**
