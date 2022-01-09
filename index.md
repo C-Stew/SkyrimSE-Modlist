@@ -6,6 +6,8 @@ This mod list uses ESO & UI’s [SKYRIM SE MICRO MOD LIST – V1.2](https://eso-
 
 This mod list also incorporates ENB, a post-processing program that enhances visuals drastically. If you experience performance issues or are running on a low-end system, test with ENB off. **Certain mods rely on ENB being present, and they will need to be removed if ENB is not in use.**
 
+*Any mods containing NSFW content/additions will not be included.*
+
 **System Requirements*** **(and AMD equivalent):**
 - NVIDIA GTX 1050 \| AMD HD 7870
 - Intel i3 \| Ryzen 3
@@ -17,7 +19,7 @@ This mod list also incorporates ENB, a post-processing program that enhances vis
 - 16GB DDR4-2933MHz
 
 **Storage:**
-- 4784 MB Available + Skyrim SE File Size (Approx. 14GB)
+- 5.2GB for Archives + 7.7GB for Mod Files + Skyrim SE (Approx. 14GB)
 
 **According to ESO & UI’s [SKYRIM SE MOD LISTS](https://eso-ui.com/skyrim-se/) page*
 
@@ -83,7 +85,7 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
   - Load Noble Skyrim BEFORE Fluffy Snow
   - Hit `Deploy`
 - [XPMSSE](https://www.nexusmods.com/skyrimspecialedition/mods/1988?tab=files)
-  - Requires allowing adult content on your account (the page and mod (how we will use it) contain no NSFW content)
+  - Requires allowing adult content on your Nexus account (the page and mod (how we will use it) contain no NSFW content)
   - When prompted, select `Physics Extensions`
   - On the next page, select `Racemenu`
     - We will install this later, as well as FNIS SE
@@ -105,7 +107,17 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
   - Vortex will say **Fluffy Snow for Majestic Mountains - 2K (MM1.8 and newer)** is redundant. Ignore this warning, as it shouldn't be the case.
   - Hit `Deploy`
 - [FNIS SE](https://www.nexusmods.com/skyrimspecialedition/mods/3038?tab=files)
-  - *To Be Added*
+  - After installing, watch the **Vortex Users** section of [this video](https://www.youtube.com/watch?v=sYEAnTdZb-s) to properly set up FNIS
+    - Note that only the Behavior pack is needed, not creatures or spells!
+    - Also, ignore the MO2 portion of the chapter.
+  - When configuring FNIS, check `Skeleton Arm Fix`, `HKX File Compat. Check`, and all of `xp32's` options EXCEPT PCEA.
+    - Only use Vortex's menu, as using it and the executable causes conflicts!
+- [Immersive Citizens](https://www.nexusmods.com/skyrimspecialedition/mods/173?tab=files)
+  - Options selected should be `Core` and `None`.
+  - If it shows External Changes from using FNIS Generator, choose **Use newer file**.
+- [DDCse](https://www.nexusmods.com/skyrimspecialedition/mods/695?tab=files)
+- [Blended Roads](https://www.nexusmods.com/skyrimspecialedition/mods/8834?tab=files)
+  - When prompted, set both selections to `Blended Roads`.
 
 ## My Additions
 **When downloading mods, use the specified version unless replaced by a newer build!**
