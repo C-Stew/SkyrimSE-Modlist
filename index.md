@@ -24,7 +24,7 @@ This mod list uses ESO & UI’s [SKYRIM SE MICRO MOD LIST – V1.2](https://eso-
 This guide is designed to be as user-friendly as possible and accessible to those with zero previous modding experience!
 
 ## Pre-Installation
-I will be using [Vortex](https://www.nexusmods.com/about/vortex/) to install and manage mods. For a comprehensive usage and setup guide, Ultimate Immersion has an intuitive video [here](https://www.youtube.com/watch?v=EyDtcYuDd9w) on setting up your Skyrim installation and Vortex to be mod-ready. **It also covers installing SKSE64, a crucial plugin that requires manual installation. Make sure you download *Legacy SE build 2.0.20 (runtime 1.5.97)*, NOT the *Latest AE Build!***
+I use [Vortex](https://www.nexusmods.com/about/vortex/) to install and manage mods. For a comprehensive usage and setup guide, Ultimate Immersion has an intuitive video [here](https://www.youtube.com/watch?v=EyDtcYuDd9w) on setting up your Skyrim installation and Vortex to be mod-ready. **It also covers installing SKSE64, a crucial plugin that requires manual installation. Make sure you download *Legacy SE build 2.0.20 (runtime 1.5.97)*, NOT the *Latest AE Build!***
 
 When downloading mods, use the **MOD MANAGER DOWNLOAD** button unless otherwise specified. Do note that Nexus limits Non-premium users to one 1MB/s download at a time, so patience is a must. If you get a pop-up in your browser asking to open a link with Vortex, **select Allow**. It will automatically begin downloading the mod within Vortex.
 
