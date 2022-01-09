@@ -18,8 +18,8 @@ This mod list also incorporates ENB, a post-processing program that enhances vis
 - Intel i5-10300H \| Ryzen 5 4600H
 - 16GB DDR4-2933MHz
 
-**Storage:**
-- 5.2GB for Archives + 7.7GB for Mod Files + Skyrim SE (Approx. 14GB)
+**Storage Requirements:**
+- <>GB for Archives + <>GB for Mod Files + Skyrim SE (Approx. 13GB)
 
 **According to ESO & UI’s [SKYRIM SE MOD LISTS](https://eso-ui.com/skyrim-se/) page*
 
@@ -118,6 +118,27 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
 - [DDCse](https://www.nexusmods.com/skyrimspecialedition/mods/695?tab=files)
 - [Blended Roads](https://www.nexusmods.com/skyrimspecialedition/mods/8834?tab=files)
   - When prompted, set both selections to `Blended Roads`.
+- [RS Children Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/2650?tab=files)
+  - When selecting patches, choose `USSEP`
+  - In Extra Options, select `Bigger Heads` and `Facial Animations` to prevent potential bugs.
+  - For whatever reason, Blended Roads conflicts didn't appear until now for me, so lets fix them!
+    - Load Noble Skyrim BEFORE Blended Roads
+    - Load Blended Roads AFTER SMIM
+    - Load Blended Roads AFTER UV-tweaks
+    - Load Blended Roads BEFORE Fluffy Snow
+  - Hit `Deploy`
+- [RS Children Patch Compendium](https://www.nexusmods.com/skyrimspecialedition/mods/13409?tab=files)
+  - Download **RSC FOMOD Beta** and **RS Children and USSEP Aventus fix**
+  - ONLY SELECT `Cutting Room Floor` and hit Finish
+    - It will now display a `Missing Masters` warning, which will be resolved later
+- [JK's Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/6289?tab=files)
+  - Download **JK's Skyrim all in one**
+- [RUGNAROK - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/5436?tab=files)
+  - Download **RUGNAROK - Special Edition - 2K** (recommended) or **RUGNAROK - Special Edition - 1K** (recommended for low-end systems)
+    - Load Noble Skyrim BEFORE RUGNAROK
+  - Hit `Deploy`
+- [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703?tab=files)
+  - Download **RUSTIC CLOTHING - Special Edition - 2K**
 
 ## My Additions
 **When downloading mods, use the specified version unless replaced by a newer build!**
