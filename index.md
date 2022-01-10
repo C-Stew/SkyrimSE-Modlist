@@ -20,7 +20,8 @@ LOOT will be used periodically to optimize load order and solve override issues,
 - 16GB DDR4-2933MHz
 
 **Storage Requirements:**
-- 7.9GB for Archives + 11.8GB for Mod Files + Skyrim SE (Approx. 13GB Base, 24.5GB after Mods)
+- 10.3GB for Archives + 15GB for Mod Files + Skyrim SE (Approx. 13GB Base, 27.6GB after Mods)
+  - Total Space Requirements comes out to be **53GB for Skyrim SE and all mod files**. While this is a hefty number, it's fairly standard for mod lists that replace the majority of the game's textures and sounds. *Note: These numbers are subject to change as the list is further developed.*
 
 **According to ESO & UI’s [SKYRIM SE MOD LISTS](https://eso-ui.com/skyrim-se/) page*
 
@@ -233,7 +234,10 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
     - Load Ruins Clutter Improved BEFORE RUGNAROK
   - Hit `Deploy`
 
+Congrats! The easy part of the modding process is finished! Next, the load order needs to be optimized so the game doesn't instantly crash or have severe glitches.
+
 ## LOOT Part 1
+As useful as Vortex's sorting rules are, **they are far from perfect**.
 
 ## Setting up ENB
 
