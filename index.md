@@ -2,8 +2,7 @@
 ## Foreword
 This mod list uses the **now outdated 1.5.97 version** of Skyrim SE. If you have updated to or are using the Anniversary Edition, use [this mod](https://www.nexusmods.com/skyrimspecialedition/mods/57618) to downgrade to the compatible SE version. It is also incompatible with Skyrim: Legendary Edition, the original game with all DLC Add-ons, and Skyrim VR, the Virtual Reality version of Skyrim SE, due to many mods not supporting those versions of the game.
 
-This mod list uses ESO & UI’s [SKYRIM SE MICRO MOD LIST – V1.2](https://eso-ui.com/skyrim-se-micro-list/) as a base. It is recommended to use my list as it contains updated instructions since the release of Anniversary Edition, and includes some patches to make mods work better together.
-
+This mod list uses ESO & UI’s [SKYRIM SE MICRO MOD LIST – V1.2](https://eso-ui.com/skyrim-se-micro-list/) as a base. However, my list includes several changes to exclude certain mod features and incorporate compatibility patches.
 This mod list also incorporates ENB, a post-processing program that enhances visuals drastically. If you experience performance issues or are running on a low-end system, test with ENB off. **Certain mods rely on ENB being present, and they will need to be removed if ENB is not in use.**
 
 *Any mods containing NSFW content/additions will not be included.*
