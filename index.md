@@ -263,13 +263,13 @@ As useful as Vortex's sorting rules are, **they are far from perfect**. To remed
   - Now, navigate back to Vortex's Plugin Menu and find **GQJ_DG_vampireamuletfix.esp**.
     - We can't delete the plugin, so simply disable it by clicking the green `Enabled` button next to it.
 - Next, it's time for more compatibility patches LOOT picked up on.
-  - These fixes are for ELFX: [Here](https://www.nexusmods.com/skyrimspecialedition/mods/25498/?tab=files) and [Here](https://www.nexusmods.com/skyrimspecialedition/mods/53957?tab=files)
+  - Download these fixes are for ELFX: [Here](https://www.nexusmods.com/skyrimspecialedition/mods/25498/?tab=files) and [Here](https://www.nexusmods.com/skyrimspecialedition/mods/53957?tab=files)
   - Download the [Flashing Savegames Fix](https://www.nexusmods.com/skyrimspecialedition/mods/20406/?tab=files) and [Immersive Fallen Trees Patch](https://www.nexusmods.com/skyrimspecialedition/mods/27834/?tab=files)
-    - Go back to Vortex and make sure **fallenbridgesSSE-Patch.esp** is enabled. If not, enable it using the down arrow next to `Disabled` and select `Enabled`.
     - For ELFX Fixes, select `Sounds of Skyrim - Tonycubed version` and **only if you plan to use ENB** select `ENB ELFX Meshes`.
     - Load ELFX Fixes AFTER all conflicting mods and hit `Deploy`.
     - For Flickering Meshes Fix, set all options to `No parallax version`, `Farmhouses Without Parallax`, and enable patches for SMIM, Majestic Mountains, and, **only if using ENB**, Water for ENB.
     - Load FLickering Meshes Fix AFTER all conflicting mods **EXCEPT WATER FOR ENB** and hit `Deploy`.
+    - Go back to Vortex and make sure **fallenbridgesSSE-Patch.esp** is enabled. If not, enable it using the down arrow next to `Disabled` and select `Enabled`.
   - At this time, Refresh Content in LOOT as before.
   - If for some reason you see **JKs Skyrim_Arthmoor All_Patch.esp**, disable it within Vortex as it shouldn't be there.
   - Now, in LOOT, find **JKs Skyrim.esp** and enter its **Edit Metadata** menu.
