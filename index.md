@@ -49,7 +49,9 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
   - Using [7-zip](https://www.7-zip.org/), right click **Part.2.skse64.Preloader.TBB.Lib.7z**, hover over `7-Zip >`, and select `Extract Here`.
 - [Address Library for SKSE Plugins](https://www.nexusmods.com/skyrimspecialedition/mods/32444?tab=files)
   - Download **All in one (Special Edition)**, NOT Anniversary Edition!
-- [Unofficial Skyrim Special Edition Patch](https://www.nexusmods.com/skyrimspecialedition/mods/266?tab=files)
+- [Unofficial Skyrim Special Edition Patch](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=209150&game_id=1704)
+  - Arthmoor removed USSEP for 1.5.97 from Nexus, but it can still be acquired from the above link and installed manually.
+  - Once downloaded, install it the same way as **Part.1.SSE.Engine.Fixes.for.1.5.39-1.5.97.7z**.
 - [SkyUI](https://www.nexusmods.com/skyrimspecialedition/mods/12604?tab=files)
 - [Static Mesh Improvement Mod - SMIM](https://www.nexusmods.com/skyrimspecialedition/mods/659?tab=files)
   - When prompted, select `Skyrim 2016 Special Edition: Everything`
@@ -102,7 +104,7 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
   - After installing, watch the **Vortex Users** section of [this video](https://www.youtube.com/watch?v=sYEAnTdZb-s) to properly set up FNIS
     - Note that only the Behavior pack is needed, not creatures or spells!
     - Also, ignore the MO2 portion of the chapter.
-  - When configuring FNIS, check `Skeleton Arm Fix` and `HKX File Compatibility Check`.
+  - When configuring FNIS, check `GENDER Specific Animations`, `Skeleton Arm Fix`, and `HKX File Compatibility Check`.
     - Only use Vortex's menu, as using it and the executable causes conflicts!
 - [Immersive Citizens](https://www.nexusmods.com/skyrimspecialedition/mods/173?tab=files)
   - Options selected should be `Core` and `None`.
@@ -124,7 +126,8 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
   - ONLY SELECT `Cutting Room Floor` and hit Finish
     - It will now display a `Missing Masters` warning, which will be resolved later
 - [JK's Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/6289?tab=files)
-  - Download **JK's Skyrim all in one**
+  - Download **JK's Skyrim all in one** and **JK's Skyrim - Arthmoor's Patch Pack**
+  - For Arthmoor's Patch Pack, select `Individual Patches`, then `Cutting Room Floor Patch`.
 - [RUGNAROK - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/5436?tab=files)
   - Download **RUGNAROK - Special Edition - 2K** (recommended) or **RUGNAROK - Special Edition - 1K** (recommended for low-end systems)
     - Load Noble Skyrim BEFORE RUGNAROK
@@ -219,7 +222,7 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
   - Download **1) aMidianBorn Book of Silence SE -- COMPLETE**
   - This download will take a while, but **do not skip it for later**!
 - [RaceMenu](https://www.nexusmods.com/skyrimspecialedition/mods/19080?tab=files)
-  - Enable both RaceMenu plugins if they show as Disabled.
+  - Enable RaceMenu.esp if it shows as Disabled. The plugin is optional and can be disabled.
 - [Ruins Clutter Improved](https://www.nexusmods.com/skyrimspecialedition/mods/5870?tab=files)
   - Download **Ruins Clutter Improved SE Mod Manager**
   - Select `Install Everything` and hit Finish.
@@ -234,10 +237,42 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
     - Load Ruins Clutter Improved BEFORE RUGNAROK
   - Hit `Deploy`
 
-Congrats! The easy part of the modding process is finished! Next, the load order needs to be optimized so the game doesn't instantly crash or have severe glitches.
+Congrats! The easy part of the modding process is finished! At this point, Vortex should show **51 mods active**, and the last number in the Deploy Order should be **50**.  Next, the load order needs to be optimized so the game doesn't instantly crash or have severe glitches.
 
 ## LOOT Part 1
-As useful as Vortex's sorting rules are, **they are far from perfect**.
+As useful as Vortex's sorting rules are, **they are far from perfect**. To remedy this, we can use **LOOT: The Load Order Optimisation Tool**. Below are full, in-depth instructions from downloading and installing LOOT to fixing Vortex's shortcomings.
+- Go to [LOOT's official website](https://loot.github.io/) and click the blue `DOWNLOAD LOOT` button. This takes you to their GitHub releases page.
+- Download **LOOT.Installer.exe** from the latest release. Save it to a temporary location, such as your Downloads folder.
+- After it downloads, run it by clicking it at the bottom of your browser or locating it in File Explorer and double-clicking it.
+- Click `Yes` in the User Account Control Pop-up
+- Follow the installer instructions to install LOOT.
+- Launch LOOT when you finish installing.
+- Hit OK in the First Time window.
+- SFCO - JK's Whiterun Interiors Patch.esp will show the same warnings Vortex did, and they can be ignored.
+- At the top of the window, hit the Sort Plugins (three lines) button.
+- LOOT has now optimized the load order, and found several issues. Unlike Vortex, LOOT provides recommendations for fixing these, so let's go through them!
+  - Locate **NAT.esp**, click the three dots on its card, and select **Edit Metadata**.
+    - Select the **Load After** tab, and select **ADD NEW ROW**
+    - For the Filename, enter `EnhancedLightsandFX.esp`
+    - Select the Save Icon at the top of the **NAT.esp** tab.
+  - Next, navigate to **Unofficial Skyrim Special Edition Patch.esp**
+    - In LOOT, click the three dots in the top right, and select **Refresh Content**.
+  - Now, navigate back to Vortex's Plugin Menu and find **GQJ_DG_vampireamuletfix.esp**.
+    - We can't delete the plugin, so simply disable it by clicking the green `Enabled` button next to it.
+- Next, it's time for more compatibility patches LOOT picked up on.
+  - These fixes are for ELFX: [Here](https://www.nexusmods.com/skyrimspecialedition/mods/25498/?tab=files) and [Here](https://www.nexusmods.com/skyrimspecialedition/mods/53957?tab=files)
+    - For ELFX Fixes, select `Sounds of Skyrim - Tonycubed version` and **only if you plan to use ENB** select `ENB ELFX Meshes`.
+    - Load ELFX Fixes AFTER all conflicting mods and hit `Deploy`.
+    - For Flickering Meshes Fix, set all options to `No parallax version`, `Farmhouses Without Parallax`, and enable patches for SMIM, Majestic Mountains, and, **only if using ENB**, Water for ENB.
+    - Load FLickering Meshes Fix AFTER all conflicting mods **EXCEPT WATER FOR ENB** and hit `Deploy`.
+  - At this time, Refresh Content in LOOT as before.
+  - If for some reason you see **JKs Skyrim_Arthmoor All_Patch.esp**, disable it within Vortex as it shouldn't be there.
+  - Now, in LOOT, find **JKs Skyrim.esp** and enter its **Edit Metadata** menu.
+    - In the **Load After** tab, add a new row with `Cutting Room Floor.esp` and save it.
+    - Do the same with **JKs Skyrim_Cutting Room Floor_Patch.esp**, but instead enter **JKs Skyrim.esp** in the rule and save it.
+- Now, refresh content and sort your load order again.
+
+Leave LOOT open, as the next step is fixing all of those yellow warnings it showed.
 
 ## Setting up ENB
 
