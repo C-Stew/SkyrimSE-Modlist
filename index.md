@@ -2,8 +2,10 @@
 ## Foreword
 This mod list uses the **now outdated 1.5.97 version** of Skyrim SE. If you have updated to or are using the Anniversary Edition, use [this mod](https://www.nexusmods.com/skyrimspecialedition/mods/57618) to downgrade to the compatible SE version. It is also incompatible with Skyrim: Legendary Edition, the original game with all DLC Add-ons, and Skyrim VR, the Virtual Reality version of Skyrim SE, due to many mods not supporting those versions of the game.
 
-This mod list uses ESO & UI’s [SKYRIM SE MICRO MOD LIST – V1.2](https://eso-ui.com/skyrim-se-micro-list/) as a base. However, my list includes several changes to exclude certain mod features and incorporate compatibility patches.
+This mod list uses ESO & UI’s [SKYRIM SE MICRO MOD LIST – V1.2](https://eso-ui.com/skyrim-se-micro-list/) as a base. However, my list includes several changes to exclude certain mod features and incorporate compatibility patches. I also include some personal favorites to replace a few excluded features, annoyances, and to improve aspects their list doesn't cover. Their install instructions are also lacking, that is to say non-exsistent, making it impossibly difficult to match their settings.
 This mod list also incorporates ENB, a post-processing program that enhances visuals drastically. If you experience performance issues or are running on a low-end system, test with ENB off. **Certain mods rely on ENB being present, and they will need to be removed if ENB is not in use.**
+
+LOOT will be used periodically to optimize load order and solve override issues, as Vortex doesn't do the best job of this. *If your deploy/load order is shuffled while installing mods, don't worry.* LOOT can pretty easily resolve many load order issues.
 
 *Any mods containing NSFW content/additions will not be included.*
 
@@ -146,8 +148,8 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
   - Set Ambience to `None` and leave Exterior alone
   - Select both SMIM patches
   - Check `Torches` in Optionals
-  - Load ELFX BEFORE SMIM
-  - Load ELFX BEFORE RUGNAROK
+  - Load ELFX AFTER SMIM
+  - Load ELFX AFTER RUGNAROK
   - Load ELFX AFTER UV-tweaks
   - Hit `Deploy`
 - [SFCO](https://www.nexusmods.com/skyrimspecialedition/mods/2414?tab=files)
@@ -157,14 +159,92 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
   - For patches, select `Cutting Room Floor`, `Enhanced Lights and FX`, `Immersive Citizens`, and both `JK's` options.
   - Load SFCO AFTER SMIM
   - Hit `Deploy`
-- More to come!
+  - The **Missing Masters** warning for SFCO and JK's Skyrim should be ignoreable.
+- [PELTAPALOOZA](https://www.nexusmods.com/skyrimspecialedition/mods/5442?tab=files)
+  - Download **PELTAPALOOZA Special Edition - FULL**
+  - Load PELTAPALOOZA AFTER Noble Skyrim
+  - Hit `Deploy`
+- [Enhanced Blood Textures](https://www.nexusmods.com/skyrimspecialedition/mods/2357?tab=files)
+  - **Don't** download the LITE version!
+  - Leave settings on default, but use `Medium Distance` (recommended) for better performance or lower resolutions.
+  - I use `High Res / Darker Color` but color can be left up to preference.
+  - For Alt. Textures, leave as `None` (recommended) or make this setting match your last.
+- [Gemling Queen Jewelry SE](https://www.nexusmods.com/skyrimspecialedition/mods/4294?tab=files)
+  - Select all options except `Unobtainable`
+  - Select `Gamwich - 512` (recommended) or `Gamwich - 1024`
+  - Leave Optional Mesh Packs as `None`
+  - Ring Texture is completely up to preference, I use `Combined - 1k`
+  - Load Gemling Queen Jewelry SE AFTER SMIM
+  - Hit `Deploy`
+- [Immersive Sounds - Compendium](https://www.nexusmods.com/skyrimspecialedition/mods/523?tab=files)
+  - Options are entirely up to preference. I use default settings with all Creature Options selected.
+- [Sounds of Skyrim Complete SE](https://www.nexusmods.com/skyrimspecialedition/mods/8286?tab=files)
+  - Choose `Light` for a lore-friendly experience (recommended).
+  - The  `Immersive Citizens` patch should already be selected, but also select `Natural Atmospheric Tamriel`, but **not the ENB patch!**
+  - Make sure ELFX is set to **only `ELFX`**.
+  - Check `I Understand` on the next page. It discusses potential conflicts with multiple weather/lighting mods.
+- [Bellyaches Animal and Creature Pack SSE](https://www.nexusmods.com/skyrimspecialedition/mods/6839?tab=files)
+  - Choose `Default Replacement`
+  - Load Bellyaches AFTER SMIM
+  - Hit `Deploy`
+- [Landscape Fixes For Grass Mods](https://www.nexusmods.com/skyrimspecialedition/mods/9005?tab=files)
+  - Download (*there's a lot*) **Landscape Fixes For Grass Mods**, **Immersive Citizens v0.4 Patch**, **JK's Skyrim - Towns**, **Patches for Arthmoor's Town add-ons**, and **Generic Grass Limiter** (under Misc. Files)
+  - In **Patches for Arthmoor's Towns**, select `Cutting Room Floor`
+  - We'll use LOOT later to make sure these load in the proper order (Folkvangr -> Base Mod -> Patches)
+- [Cutting Room Floor - SSE](https://www.nexusmods.com/skyrimspecialedition/mods/276?tab=files)
+- [Smoking Torches and Candles](https://www.nexusmods.com/skyrimspecialedition/mods/8607?tab=files)
+  - Choose `Subtle` (recommended) or `Classic` (not recommended)
+  - Choose `Optimized` (recommended) or `Max Quality` (not recommended for low-end systems)
+  - Choose `ESPFE`
+  - Load Smoking Torches BEFORE ELFX
+  - Load Smoking Torches AFTER SMIM
+  - Hit `Deploy`
+- [NAT - Natural and Atmospheric Tamriel](https://www.nexusmods.com/skyrimspecialedition/mods/12842?tab=files)
+  - Only download **NAT Stand Alone**
+  - NAT should be loaded **after other lighting mods**!
+    - We will fix this with LOOT later, as Vortex doesn't notice lighting mod conflicts.
+- [Embers HD](https://www.nexusmods.com/skyrimspecialedition/mods/14368?tab=files)
+  - Choose `1K` (recommended) or `1K Orange Cast`
+  - Select `Fireplaces Add-On + Custom Fire Effect`
+  - Select **both** Add-Ons
+  - Select the `Smoking Torches Patch`
+  - Now for several file conflicts!
+    - Load EMBERS HD BEFORE ELFX
+    - Load EMBERS HD AFTER Smoking Torches
+    - Load EMBERS HD AFTER SMIM
+  - Hit `Deploy`
+- [Immersive Fallen Trees SSE](https://www.nexusmods.com/skyrimspecialedition/mods/8767?tab=files)
+- [aMidianBorn Book of Silence SE](https://www.nexusmods.com/skyrimspecialedition/mods/35382?tab=files)
+  - Download **1) aMidianBorn Book of Silence SE -- COMPLETE**
+  - This download will take a while, but **do not skip it for later**!
+- [RaceMenu](https://www.nexusmods.com/skyrimspecialedition/mods/19080?tab=files)
+  - Enable both RaceMenu plugins if they show as Disabled.
+- [Ruins Clutter Improved](https://www.nexusmods.com/skyrimspecialedition/mods/5870?tab=files)
+  - Download **Ruins Clutter Improved SE Mod Manager**
+  - Select `Install Everything` and hit Finish.
+  - Once again, it conflicts with the other texture mods.
+    - Load Ruins Clutter Improved AFTER Noble Skyrim
+    - Load Ruins Clutter Improved AFTER SMIM
+    - Load Ruins Clutter Improved AFTER NSM SMIM Patch
+    - Load Ruins Clutter Improved AFTER UV-tweaks
+    - Load Ruins Clutter Improved BEFORE Smoking Torches
+    - Load Ruins Clutter Improved BEFORE ELFX
+    - Load Ruins Clutter Improved BEFORE Enhanced Blood Textures
+    - Load Ruins Clutter Improved BEFORE RUGNAROK
+  - Hit `Deploy`
+
+## LOOT Part 1
+
+## Setting up ENB
 
 ## My Additions
 **When downloading mods, use the specified version unless replaced by a newer build! If no version is specified, download the latest Main File!**
 
 **If a mod is no longer available, proceed without it as it will likely work anyway.**
 
-**All of the following mods should be loaded AFTER mods from ESO & UI’s List!**
+**All of the following mods should be loaded AFTER mods from ESO & UI’s List unless specified otherwise!**
 - [9.0.1 A Quality World Map - Vivid with Stone Roads](https://www.nexusmods.com/skyrimspecialedition/mods/5804?tab=files)
   - Also download [A Quality World Map - Clear Map Skies](https://www.nexusmods.com/skyrimspecialedition/mods/5804?tab=files) under the Optional Files section.
 - More to come!
+
+## LOOT Part 2
