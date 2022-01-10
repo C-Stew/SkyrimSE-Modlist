@@ -261,6 +261,8 @@ As useful as Vortex's sorting rules are, **they are far from perfect**. To remed
     - We can't delete the plugin, so simply disable it by clicking the green `Enabled` button next to it.
 - Next, it's time for more compatibility patches LOOT picked up on.
   - These fixes are for ELFX: [Here](https://www.nexusmods.com/skyrimspecialedition/mods/25498/?tab=files) and [Here](https://www.nexusmods.com/skyrimspecialedition/mods/53957?tab=files)
+  - Download the [Flashing Savegames Fix](https://www.nexusmods.com/skyrimspecialedition/mods/20406/?tab=files) and [Immersive Fallen Trees Patch](https://www.nexusmods.com/skyrimspecialedition/mods/27834/?tab=files)
+    - Go back to Vortex and make sure **fallenbridgesSSE-Patch.esp** is enabled. If not, enabled using the down arrow next to `Disabled` and select `Enabled`.
     - For ELFX Fixes, select `Sounds of Skyrim - Tonycubed version` and **only if you plan to use ENB** select `ENB ELFX Meshes`.
     - Load ELFX Fixes AFTER all conflicting mods and hit `Deploy`.
     - For Flickering Meshes Fix, set all options to `No parallax version`, `Farmhouses Without Parallax`, and enable patches for SMIM, Majestic Mountains, and, **only if using ENB**, Water for ENB.
@@ -270,9 +272,26 @@ As useful as Vortex's sorting rules are, **they are far from perfect**. To remed
   - Now, in LOOT, find **JKs Skyrim.esp** and enter its **Edit Metadata** menu.
     - In the **Load After** tab, add a new row with `Cutting Room Floor.esp` and save it.
     - Do the same with **JKs Skyrim_Cutting Room Floor_Patch.esp**, but instead enter **JKs Skyrim.esp** in the rule and save it.
+  - In LOOT, navigate to **fallenbridgesSSE-Patch.esp** and add a **Load After** rule for **fallentreebridgesSSE.esp** and save it.
 - Now, refresh content and sort your load order again.
 
-Leave LOOT open, as the next step is fixing all of those yellow warnings it showed.
+Leave LOOT open, as the next step is fixing all of those yellow warnings it showed using **SSEEdit**. While SSEEdit can be run through Vortex, it is easier not to.
+
+*Quick note before this step: **Never clean Master Files, especially Base Game Files!** These are marked with a Crown icon within LOOT, and cleaning them with SSEEdit can have irreversible, game-breaking consequences. **Best practice is to only clean files with a yellow warning in LOOT that ARE NOT Master Files.***
+
+- Download the latest [SSEEdit](https://www.nexusmods.com/skyrimspecialedition/mods/164?tab=files) to somewhere memorable, such as your Desktop.
+- Right-click the .7z file, then click `7-Zip >`, `Extract Here`.
+- Open the folder and double-click `SSEEditQuickAutoClean.exe`.
+- Click `OK` and `Close` in the next two windows that appear.
+- Now, keep a few things in mind:
+  - SSEEdit can only clean **one file at a time**. Selecting multiple will give an error, meaning the files must be cleaned one by one.
+  - We only want to clean the following files: **EnhancedLightsandFX.esp**, **NAT.esp**, **RSChildren.esp**, and **Immersive Citizens - AI Overhaul.esp**.
+- Select an afrementioned plugin and click `OK` in the bottom right.
+  - You may notice that some of the Base Game Files have a square in their checkbox when selecting a mod. This simply denotes what ESMs the selected file has data referencing, and is only cleaning the file with a checkmark.
+- If a large `Cancel` button appears on-screen, **do not click it!** You can also ignore any other pop-up during the cleaning process.
+- Once it's done, close SSEEdit, reopen the QuickAutoClean executable, and repeat for the other plugins.
+
+Now, return to LOOT and Refresh Content. You should no longer see yellow boxes on anything except DLCs and Update Master Files. If this is the case, close LOOT and Vortex for now.
 
 ## Setting up ENB
 
