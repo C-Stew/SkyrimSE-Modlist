@@ -1,5 +1,7 @@
 # **C Stew’s Skyrim SE Modlist v1.0 [WIP]**
 ## Foreword
+This page serves as a complete guide to use the same mods I do, beginning from a vanilla (un-modded) Skyrim SE Installation. It covers everything from downloading mods to optimizing load order to increasing stability.
+
 This mod list uses the **now outdated 1.5.97 version** of Skyrim SE. If you have updated to or are using the Anniversary Edition, use [this mod](https://www.nexusmods.com/skyrimspecialedition/mods/57618) to downgrade to the compatible SE version. It is also incompatible with Skyrim: Legendary Edition, the original game with all DLC Add-ons, and Skyrim VR, the Virtual Reality version of Skyrim SE, due to many mods not supporting those versions of the game.
 
 This mod list uses ESO & UI’s [SKYRIM SE MICRO MOD LIST – V1.2](https://eso-ui.com/skyrim-se-micro-list/) as a base. However, my list includes several changes to exclude certain mod features and incorporate compatibility patches. I also include some personal favorites to replace a few excluded features, annoyances, and to improve aspects their list doesn't cover. Their install instructions are also lacking, that is to say non-exsistent, making it impossibly difficult to match their settings.
@@ -20,8 +22,8 @@ LOOT will be used periodically to optimize load order and solve override issues,
 - 16GB DDR4-2933MHz
 
 **Storage Requirements:**
-- 10.3GB for Archives + 15GB for Mod Files + Skyrim SE (Approx. 13GB Base, 27.6GB after Mods)
-  - Total Space Requirements comes out to be **53GB for Skyrim SE and all mod files**. While this is a hefty number, it's fairly standard for mod lists that replace the majority of the game's textures and sounds. *Note: These numbers are subject to change as the list is further developed.*
+- 10.3GB for Archives + 15.1GB for Mod Files + Skyrim SE (Approx. 13GB Base, 27.7GB after Mods)
+  - Total Space Requirements comes out to be **53.1GB for Skyrim SE and all mod files**. While this is a hefty number, it's fairly standard for mod lists that replace the majority of the game's textures and sounds. *Note: These numbers are subject to change as the list is further developed.*
 
 **According to ESO & UI’s [SKYRIM SE MOD LISTS](https://eso-ui.com/skyrim-se/) page*
 
@@ -41,7 +43,7 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
 
 **If a mod is no longer available, proceed without it as it will likely work anyway.**
 - [SSE Engine Fixes](https://github.com/aers/EngineFixesSkyrim64/releases/)
-  - Not sure why, but their Nexus Mods page is set to hidden, so it must be acquired from their GitHub instead.
+  - Due to recent controversy, Aers's Nexus Mods page is set to hidden, so it must be acquired from their GitHub instead.
   - Download **Part.1.SSE.Engine.Fixes.for.1.5.39-1.5.97.7z** and **Part.2.skse64.Preloader.TBB.Lib.7z** from their latest release.
   - Open Vortex, activate SSE, and select the **Mods** tab on the left side.
   - Click the plus icon on the orange bar and select **Part.1.SSE.Engine.Fixes.for.1.5.39-1.5.97.7z** to automatically import the mod.
@@ -237,9 +239,9 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
     - Load Ruins Clutter Improved BEFORE RUGNAROK
   - Hit `Deploy`
 
-Congrats! The easy part of the modding process is finished! At this point, Vortex should show **51 mods active**, and the last number in the Deploy Order should be **50**.  Next, the load order needs to be optimized so the game doesn't instantly crash or have severe glitches.
+Congrats! The easy part of the modding process is finished! Next, the load order needs to be optimized so the game doesn't instantly crash or have severe glitches.
 
-## LOOT Part 1
+## LOOT/SSEEdit Part 1
 As useful as Vortex's sorting rules are, **they are far from perfect**. To remedy this, we can use **LOOT: The Load Order Optimisation Tool**. Below are full, in-depth instructions from downloading and installing LOOT to fixing Vortex's shortcomings.
 - Go to [LOOT's official website](https://loot.github.io/) and click the blue `DOWNLOAD LOOT` button. This takes you to their GitHub releases page.
 - Download **LOOT.Installer.exe** from the latest release. Save it to a temporary location, such as your Downloads folder.
@@ -256,13 +258,14 @@ As useful as Vortex's sorting rules are, **they are far from perfect**. To remed
     - For the Filename, enter `EnhancedLightsandFX.esp`
     - Select the Save Icon at the top of the **NAT.esp** tab.
   - Next, navigate to **Unofficial Skyrim Special Edition Patch.esp**
+    - It will have a notice about a compatibility patch that is not in use. Click [Circlet USSEP Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/35576?tab=files) here or in LOOT, and download **Gemling Queen Jewelry SE USSEP Circlet Fix** the same way as every other mod.
     - In LOOT, click the three dots in the top right, and select **Refresh Content**.
   - Now, navigate back to Vortex's Plugin Menu and find **GQJ_DG_vampireamuletfix.esp**.
     - We can't delete the plugin, so simply disable it by clicking the green `Enabled` button next to it.
 - Next, it's time for more compatibility patches LOOT picked up on.
   - These fixes are for ELFX: [Here](https://www.nexusmods.com/skyrimspecialedition/mods/25498/?tab=files) and [Here](https://www.nexusmods.com/skyrimspecialedition/mods/53957?tab=files)
   - Download the [Flashing Savegames Fix](https://www.nexusmods.com/skyrimspecialedition/mods/20406/?tab=files) and [Immersive Fallen Trees Patch](https://www.nexusmods.com/skyrimspecialedition/mods/27834/?tab=files)
-    - Go back to Vortex and make sure **fallenbridgesSSE-Patch.esp** is enabled. If not, enabled using the down arrow next to `Disabled` and select `Enabled`.
+    - Go back to Vortex and make sure **fallenbridgesSSE-Patch.esp** is enabled. If not, enable it using the down arrow next to `Disabled` and select `Enabled`.
     - For ELFX Fixes, select `Sounds of Skyrim - Tonycubed version` and **only if you plan to use ENB** select `ENB ELFX Meshes`.
     - Load ELFX Fixes AFTER all conflicting mods and hit `Deploy`.
     - For Flickering Meshes Fix, set all options to `No parallax version`, `Farmhouses Without Parallax`, and enable patches for SMIM, Majestic Mountains, and, **only if using ENB**, Water for ENB.
@@ -291,9 +294,25 @@ Leave LOOT open, as the next step is fixing all of those yellow warnings it show
 - If a large `Cancel` button appears on-screen, **do not click it!** You can also ignore any other pop-up during the cleaning process.
 - Once it's done, close SSEEdit, reopen the QuickAutoClean executable, and repeat for the other plugins.
 
-Now, return to LOOT and Refresh Content. You should no longer see yellow boxes on anything except DLCs and Update Master Files. If this is the case, close LOOT and Vortex for now.
+Now, return to LOOT and Refresh Content. You should no longer see yellow boxes on anything except DLC and Update Master Files. If this is the case, close LOOT and Vortex for now.
 
 ## Setting up ENB
+*If you don't plan to use ENB, skip to the next section.*
+
+This process has two major steps: Installing the files for ENB, and installing the ENB Preset. First, install ENB for Skyrim SE:
+- Go [here](http://enbdev.com/mod_tesskyrimse_v0466.htm) and download the latest ENB for Skyrim SE.
+  - Ignore any links, scroll down to the bottom of the page and click the icon to the left of `download`.
+  - For ease of access, save the .zip to your Skyrim SE installation (the folder with SkyrimSE.exe and SkyrimSELauncher.exe).
+- Open the .zip, and within it open the **Wrapper Version**.
+- In this folder, select the **enbseries folder**, **both DLLs**, **enblocal.ini**, and **enbseries.ini**. Copy these to the same folder as the Skyrim executables.
+
+Next, download the ENB preset itself:
+- Download [Ultimate Immersion SE ENB](https://eso-ui.com/ultimate-immersion-se-enb/) by hitting the blue `Download Ultimate Immersion SE ENB v1.5` buttom halfway down the page.
+  - Save this .zip to your Skyrim SE installation.
+- Right-click **Ultimate-Immersion-SE-ENB-v1.5.zip**, then click `7-Zip >`, `Extract Here`.
+  - When it asks about conflicting files, select `Yes to All`.
+
+ENB is now set up and ready to go! *There are some settings that need changing once in-game for the intended result, but those come later.*
 
 ## My Additions
 **When downloading mods, use the specified version unless replaced by a newer build! If no version is specified, download the latest Main File!**
@@ -305,4 +324,7 @@ Now, return to LOOT and Refresh Content. You should no longer see yellow boxes o
   - Also download [A Quality World Map - Clear Map Skies](https://www.nexusmods.com/skyrimspecialedition/mods/5804?tab=files) under the Optional Files section.
 - More to come!
 
-## LOOT Part 2
+## LOOT/SSEdit Part 2
+
+## That's It!
+Thank you for using my mod list for your modded Skyrim SE adventures! If you encounter an issue while running these mods, or have a suggestion for an update to this page, please create a new issue [here](https://github.com/C-Stew/SkyrimSE-Modlist/issues).
