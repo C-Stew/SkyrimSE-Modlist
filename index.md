@@ -68,7 +68,8 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
   - This download will take a while, but **do not skip it for later**!
 - [Enhanced textures detail (UV-tweaks)](https://www.nexusmods.com/skyrimspecialedition/mods/992?tab=files)
   - Check `Install SMIM Conflicting Files` when prompted!
-  - On the next page, select `I want it all!` and leaved the above boxes unchecked.
+  - On the next page, select `I want it all!` and 
+ the above boxes unchecked.
   - On the next page, only check `Farmhouses with 3D Ropes`.
   - The next option is up to preference, but I use `None`.
   - On the next page, leave all boxes unchecked, and select Finish.
@@ -167,3 +168,4 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
 **All of the following mods should be loaded AFTER mods from ESO & UI’s List!**
 - [9.0.1 A Quality World Map - Vivid with Stone Roads](https://www.nexusmods.com/skyrimspecialedition/mods/5804?tab=files)
   - Also download [A Quality World Map - Clear Map Skies](https://www.nexusmods.com/skyrimspecialedition/mods/5804?tab=files) under the Optional Files section.
+- More to come!
