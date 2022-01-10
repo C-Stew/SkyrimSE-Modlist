@@ -99,7 +99,7 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
   - After installing, watch the **Vortex Users** section of [this video](https://www.youtube.com/watch?v=sYEAnTdZb-s) to properly set up FNIS
     - Note that only the Behavior pack is needed, not creatures or spells!
     - Also, ignore the MO2 portion of the chapter.
-  - When configuring FNIS, check `Skeleton Arm Fix`, `HKX File Compat. Check`, and all of `xp32's` options EXCEPT PCEA.
+  - When configuring FNIS, check `Skeleton Arm Fix` and `HKX File Compatibility Check`.
     - Only use Vortex's menu, as using it and the executable causes conflicts!
 - [Immersive Citizens](https://www.nexusmods.com/skyrimspecialedition/mods/173?tab=files)
   - Options selected should be `Core` and `None`.
