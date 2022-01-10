@@ -337,22 +337,49 @@ The following mods are some of my picks that cover aspects of the game the previ
   - Load LeanWolf's BEFORE its patch and Majestic Mountains
   - Hit `Deploy`
 - [Deadly Spell Impacts](https://www.nexusmods.com/skyrimspecialedition/mods/12939?tab=files)
-  - 
+  - Select `Default`
 - [Move it Dammit](https://www.nexusmods.com/skyrimspecialedition/mods/752?tab=files)
+  - Select the first option
 - [Visual Animated Enchants](https://www.nexusmods.com/skyrimspecialedition/mods/7037?tab=files)
 - [Lanterns Of Skyrim II](https://www.nexusmods.com/skyrimspecialedition/mods/30817?tab=files)
+  - Download **Lanterns Of Skyrim II - FOMOD** and **LoS II - JK's Skyrim patch**.
+  - Don't select any addons, only the `SMIM patch`.
+  - Only select `JK's Skyrim patch`.
+  - Select patches for `Cutting Room Floor`, `ELFX`, and `Sound of Skyrim`.
+  - Leave the next patches page unchecked.
+  - **Load LoS II BEFORE the standalone JK's Skyrim patch**.
+  - Hit `Deploy`
 - [Point The Way](https://www.nexusmods.com/skyrimspecialedition/mods/352?tab=files)
 - [CC's HQ Roadsigns SSE](https://www.nexusmods.com/skyrimspecialedition/mods/2778?tab=files)
+  - Download the **(2048x1024)** version (*the only one with a green checkmark*).
+  - Select the `Cutting Room Floor` and `Point the Way` patches.
+  - Load CC's HQ Roadsigns AFTER Noble Skyrim
+  - Hit `Deploy`
 - [ELFX - Exteriors Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/26327?tab=files)
+  - **If using ENB**, download **ELFX - Exteriors Fixes for ENB users**, otherwise download **ELFX - Exteriors Fixes**.
+  - Load Exteriors Fixes BEFORE Flickering Meshes Fix
+  - Load Exteriors Fixes AFTER SMIM
+  - Hit `Deploy`
 - [Run For Your Lives](https://www.nexusmods.com/skyrimspecialedition/mods/2272?tab=files)
 - [Hold Border Banners](https://www.nexusmods.com/skyrimspecialedition/mods/1737?tab=files)
+  - Download **Hold Border Banners - No Text Version** (recommended)
 - [Improved Roads](https://www.nexusmods.com/skyrimspecialedition/mods/12082?tab=files)
-- [No Spinning Death Animation SE](https://www.nexusmods.com/skyrimspecialedition/mods/1432)
+- [No Spinning Death Animation SE](https://www.nexusmods.com/skyrimspecialedition/mods/1432?tab=files)
+  - Download **No Spinning Death Animation MERGED**.
+- [Classic Sprinting Redone (SKSE64)](https://www.nexusmods.com/skyrimspecialedition/mods/20166?tab=files)
+  - Download **Classic Sprinting Redone (Legacy SE)**.
+- [Better Jumping SE](https://www.nexusmods.com/skyrimspecialedition/mods/18967?tab=files)
+  - Download **Better Jumping SE** under Old Files.
 - [Dynamic Animation Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/33746?tab=files)
+  - Download **DynamicAnimationReplacer v1.1.0 for SkyrimSE** under Old Files.
 - [Mfg Fix](https://www.nexusmods.com/skyrimspecialedition/mods/11669?tab=files)
+  - Download **MfgFix SE**.
 - [EVG Conditional Idles](https://www.nexusmods.com/skyrimspecialedition/mods/34006?tab=files)
 - [EVG Animation Variance](https://www.nexusmods.com/skyrimspecialedition/mods/38534?tab=files)
 - [Conditional Expressions](https://www.nexusmods.com/skyrimspecialedition/mods/45148?tab=files)
+- [First Person Combat Animations Overhaul 2.0](https://www.nexusmods.com/skyrimspecialedition/mods/45177?tab=files)
+- [Enhanced 1stperson Parry Animation for SSE](https://www.nexusmods.com/skyrimspecialedition/mods/20374)
+- [Finally First Person Magic Animation for SSE](https://www.nexusmods.com/skyrimspecialedition/mods/20375?tab=files)
 - [360 Movement Behavior SE](https://www.nexusmods.com/skyrimspecialedition/mods/33139?tab=files)
 - [Skyrim Is Windy](https://www.nexusmods.com/skyrimspecialedition/mods/5836?tab=files)
 - [Actor Limit Fix](https://www.nexusmods.com/skyrimspecialedition/mods/32349?tab=files)
