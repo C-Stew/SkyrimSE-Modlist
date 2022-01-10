@@ -102,15 +102,8 @@ If Vortex shows any mod conflicts in the upper right corner, **always load the m
     - Load Majestic Mountains AFTER Noble Skyrim
   - Vortex will say **Fluffy Snow for Majestic Mountains - 2K (MM1.8 and newer)** is redundant. Ignore this warning, as it shouldn't be the case.
   - Hit `Deploy`
-- [FNIS SE](https://www.nexusmods.com/skyrimspecialedition/mods/3038?tab=files)
-  - After installing, watch the **Vortex Users** section of [this video](https://www.youtube.com/watch?v=sYEAnTdZb-s) to properly set up FNIS
-    - Note that only the Behavior pack is needed, not creatures or spells!
-    - Also, ignore the MO2 portion of the chapter.
-  - When configuring FNIS, check `GENDER Specific Animations`, `Skeleton Arm Fix`, and `HKX File Compatibility Check`.
-    - Only use Vortex's menu, as using it and the executable causes conflicts!
 - [Immersive Citizens](https://www.nexusmods.com/skyrimspecialedition/mods/173?tab=files)
   - Options selected should be `Core` and `None`.
-  - If it shows External Changes from using FNIS Generator, choose **Use newer file**.
 - [DDCse](https://www.nexusmods.com/skyrimspecialedition/mods/695?tab=files)
 - [Blended Roads](https://www.nexusmods.com/skyrimspecialedition/mods/8834?tab=files)
   - When prompted, set both selections to `Blended Roads`.
@@ -268,7 +261,7 @@ As useful as Vortex's sorting rules are, **they are far from perfect**. To remed
     - For ELFX Fixes, select `Sounds of Skyrim - Tonycubed version` and **only if you plan to use ENB** select `ENB ELFX Meshes`.
     - Load ELFX Fixes AFTER all conflicting mods and hit `Deploy`.
     - For Flickering Meshes Fix, set all options to `No parallax version`, `Farmhouses Without Parallax`, and enable patches for SMIM, Majestic Mountains, and, **only if using ENB**, Water for ENB.
-    - Load FLickering Meshes Fix AFTER all conflicting mods **EXCEPT WATER FOR ENB** and hit `Deploy`.
+    - Load Flickering Meshes Fix AFTER all conflicting mods **EXCEPT WATER FOR ENB** and hit `Deploy`.
     - Go back to Vortex and make sure **fallenbridgesSSE-Patch.esp** is enabled. If not, enable it using the down arrow next to `Disabled` and select `Enabled`.
   - At this time, Refresh Content in LOOT as before.
   - If for some reason you see **JKs Skyrim_Arthmoor All_Patch.esp**, disable it within Vortex as it shouldn't be there.
@@ -315,16 +308,58 @@ Next, download the ENB preset itself:
 ENB is now set up and ready to go! *There are some settings that need changing once in-game for the intended result, but those come later.*
 
 ## My Additions
+The following mods are some of my picks that cover aspects of the game the previous mods don't by updating visuals and removing annoying occurrences. **If you get an External Changes pop-up from Vortex, choose `Use newer file`.**
+
 **When downloading mods, use the specified version unless replaced by a newer build! If no version is specified, download the latest Main File!**
 
 **If a mod is no longer available, proceed without it as it will likely work anyway.**
+- [A Quality World Map](https://www.nexusmods.com/skyrimspecialedition/mods/5804?tab=files)
+  - Download **9.0.1 A Quality World Map - Vivid with Stone Roads** and **A Quality World Map - Clear Map Skies**.
+    - Load A Quality World Map BEFORE Majestic Mountains
+  - Hit `Deploy`
+- [Total Character Makeover](https://www.nexusmods.com/skyrimspecialedition/mods/1037?tab=files)
+  - **Use `Manual Download`! DO NOT install with Vortex!**
+    - Download the .zip to the `Data` folder within your Skyrim SE installation
+    - Right-click **Total Character Makeover 1.2-1037-1-2.zip**, then click `7-Zip >`, `Extract Here`.
+    - When it asks about conflicting files, select `Yes to All`.
+  - *When using this mod, verifying files through Steam will revert its changes.*
+- [LeanWolf's Better-Shaped Weapons SE](https://www.nexusmods.com/skyrimspecialedition/mods/2017?tab=files)
+  - Download **LeanWolfs Better-Shaped Weapons Installer v2.1.03 SE** and **LWs BSW Orcish Greatsword inventory fix - sheath**.
+  - Select `Install Everything`
+  - Check both Sheaths options
+  - Check `Scimitar Bling`
+  - Select `Refractive Glass Weapons`
+  - Select `Stalhrim with Refraction`
+  - Select `Dawnbreaker Sheath Elf`
+  - **If using ENB**, select `Dawnbreaker for ENB`, otherwise select `Dawnbreaker No ENB`
+  - Select `DragonBling Red` (or Green or Blue, if you prefer)
+  - Select No Dual Sheath
+  - Load LeanWolf's BEFORE its patch and Majestic Mountains
+  - Hit `Deploy`
+- [Deadly Spell Impacts](https://www.nexusmods.com/skyrimspecialedition/mods/12939?tab=files)
+  - 
+- [Move it Dammit](https://www.nexusmods.com/skyrimspecialedition/mods/752?tab=files)
+- [Visual Animated Enchants](https://www.nexusmods.com/skyrimspecialedition/mods/7037?tab=files)
+- [Lanterns Of Skyrim II](https://www.nexusmods.com/skyrimspecialedition/mods/30817?tab=files)
+- [Point The Way](https://www.nexusmods.com/skyrimspecialedition/mods/352?tab=files)
+- [CC's HQ Roadsigns SSE](https://www.nexusmods.com/skyrimspecialedition/mods/2778?tab=files)
+- [ELFX - Exteriors Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/26327?tab=files)
+- [Run For Your Lives](https://www.nexusmods.com/skyrimspecialedition/mods/2272?tab=files)
+- [Hold Border Banners](https://www.nexusmods.com/skyrimspecialedition/mods/1737?tab=files)
+- [Improved Roads](https://www.nexusmods.com/skyrimspecialedition/mods/12082?tab=files)
+- [No Spinning Death Animation SE](https://www.nexusmods.com/skyrimspecialedition/mods/1432)
+- [Dynamic Animation Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/33746?tab=files)
+- [Mfg Fix](https://www.nexusmods.com/skyrimspecialedition/mods/11669?tab=files)
+- [EVG Conditional Idles](https://www.nexusmods.com/skyrimspecialedition/mods/34006?tab=files)
+- [EVG Animation Variance](https://www.nexusmods.com/skyrimspecialedition/mods/38534?tab=files)
+- [Conditional Expressions](https://www.nexusmods.com/skyrimspecialedition/mods/45148?tab=files)
+- [360 Movement Behavior SE](https://www.nexusmods.com/skyrimspecialedition/mods/33139?tab=files)
+- [Skyrim Is Windy](https://www.nexusmods.com/skyrimspecialedition/mods/5836?tab=files)
+- [Actor Limit Fix](https://www.nexusmods.com/skyrimspecialedition/mods/32349?tab=files)
 
-**All of the following mods should be loaded AFTER mods from ESO & UI’s List unless specified otherwise!**
-- [9.0.1 A Quality World Map - Vivid with Stone Roads](https://www.nexusmods.com/skyrimspecialedition/mods/5804?tab=files)
-  - Also download [A Quality World Map - Clear Map Skies](https://www.nexusmods.com/skyrimspecialedition/mods/5804?tab=files) under the Optional Files section.
 - More to come!
 
 ## LOOT/SSEdit Part 2
 
 ## That's It!
-Thank you for using my mod list for your modded Skyrim SE adventures! If you encounter an issue while running these mods, or have a suggestion for an update to this page, please create a new issue [here](https://github.com/C-Stew/SkyrimSE-Modlist/issues).
+Thank you for using my mod list for your modded Skyrim SE adventures! If you encounter an issue while running these mods or have a suggestion for an update to this page, please create a new issue [here](https://github.com/C-Stew/SkyrimSE-Modlist/issues).
