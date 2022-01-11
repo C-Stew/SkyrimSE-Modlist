@@ -22,8 +22,8 @@ LOOT will be used periodically to optimize load order and solve override issues,
 - 16GB DDR4-2933MHz
 
 **Storage Requirements:**
-- 10.3GB for Archives + 15.1GB for Mod Files + Skyrim SE (Approx. 13GB Base, 27.7GB after Mods)
-  - Total Space Requirements comes out to be **53.1GB for Skyrim SE and all mod files**. While this is a hefty number, it's fairly standard for mod lists that replace the majority of the game's textures and sounds. *Note: These numbers are subject to change as the list is further developed.*
+- 11.8GB for Archives + 16.2GB for Mod Files + Skyrim SE (Approx. 13GB Base, 29.3GB after Mods)
+  - Total Space Requirements comes out to be **57.3GB for Skyrim SE and all mod files**. While this is a hefty number, it's fairly standard for mod lists that replace the majority of the game's textures and sounds.
 
 **According to ESO & UI’s [SKYRIM SE MOD LISTS](https://eso-ui.com/skyrim-se/) page*
 
@@ -402,7 +402,9 @@ Whew! *Now* we're done downloading mods! Next, we'll optimize these mods as we d
 
 ## LOOT/SSEdit Part 2
 
+## Fixing Crashes
 
+## In-game Changes
 
 ## That's It!
 Thank you for using my mod list for your modded Skyrim SE adventures! If you encounter an issue while running these mods or have a suggestion for an update to this page, please create a new issue [here](https://github.com/C-Stew/SkyrimSE-Modlist/issues). You can also submit an issue to suggest mod additions to the list.
