@@ -362,7 +362,7 @@ The following mods are some of my picks that cover aspects of the game the previ
   - Hit `Deploy`
 - [Run For Your Lives](https://www.nexusmods.com/skyrimspecialedition/mods/2272?tab=files)
 - [Hold Border Banners](https://www.nexusmods.com/skyrimspecialedition/mods/1737?tab=files)
-  - Download **Hold Border Banners - No Text Version** (recommended)
+  - Download **Hold Border Banners - No Text Version** (recommended for immersion) or **Hold Border Banners**
 - [Improved Roads](https://www.nexusmods.com/skyrimspecialedition/mods/12082?tab=files)
 - [No Spinning Death Animation SE](https://www.nexusmods.com/skyrimspecialedition/mods/1432?tab=files)
   - Download **No Spinning Death Animation MERGED**.
@@ -375,18 +375,34 @@ The following mods are some of my picks that cover aspects of the game the previ
 - [Mfg Fix](https://www.nexusmods.com/skyrimspecialedition/mods/11669?tab=files)
   - Download **MfgFix SE**.
 - [EVG Conditional Idles](https://www.nexusmods.com/skyrimspecialedition/mods/34006?tab=files)
+  - Select `Recommended`
 - [EVG Animation Variance](https://www.nexusmods.com/skyrimspecialedition/mods/38534?tab=files)
+  - Select `Full Install`
 - [Conditional Expressions](https://www.nexusmods.com/skyrimspecialedition/mods/45148?tab=files)
+  - **DO NOT USE MOD MANAGER DOWNLOAD!**
+    - Use **MANUAL DOWNLOAD** and install the same way as **Total Character Makeover**.
 - [First Person Combat Animations Overhaul 2.0](https://www.nexusmods.com/skyrimspecialedition/mods/45177?tab=files)
-- [Enhanced 1stperson Parry Animation for SSE](https://www.nexusmods.com/skyrimspecialedition/mods/20374)
+  - Download **FPCAO2 - SIZE MATTERS SE ALL-IN-ONE 2.01**
+- [Enhanced 1stperson Parry Animation for SSE](https://www.nexusmods.com/skyrimspecialedition/mods/20374?tab=files)
+  - Select all **except** `Dual wield`
 - [Finally First Person Magic Animation for SSE](https://www.nexusmods.com/skyrimspecialedition/mods/20375?tab=files)
+  - Download **First Person Magic Animation for SSE** under Old Files.
+  - Select `Variant 3`
 - [360 Movement Behavior SE](https://www.nexusmods.com/skyrimspecialedition/mods/33139?tab=files)
 - [Skyrim Is Windy](https://www.nexusmods.com/skyrimspecialedition/mods/5836?tab=files)
 - [Actor Limit Fix](https://www.nexusmods.com/skyrimspecialedition/mods/32349?tab=files)
+  - *The requirement for .NET Framework is already met by the current Windows 10 builds.*
+- [Clean Menu](https://www.nexusmods.com/skyrimspecialedition/mods/3223?tab=files)
+  - Download **Clean Menu -- All in One (30 FPS)** as 60FPS menus can cause conflicts.
+- [Main Menu Spinning Skyrim Emblem](https://www.nexusmods.com/skyrimspecialedition/mods/725/?tab=files)
+  - Download the main file, despite its nomenclature.
+  - Select `Special Edition Steel - Average Speed` (recommended, but any works).
 
-- More to come!
+Whew! *Now* we're done downloading mods! Next, we'll optimize these mods as we did before.
 
 ## LOOT/SSEdit Part 2
 
+
+
 ## That's It!
-Thank you for using my mod list for your modded Skyrim SE adventures! If you encounter an issue while running these mods or have a suggestion for an update to this page, please create a new issue [here](https://github.com/C-Stew/SkyrimSE-Modlist/issues).
+Thank you for using my mod list for your modded Skyrim SE adventures! If you encounter an issue while running these mods or have a suggestion for an update to this page, please create a new issue [here](https://github.com/C-Stew/SkyrimSE-Modlist/issues). You can also submit an issue to suggest mod additions to the list.
