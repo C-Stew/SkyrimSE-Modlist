@@ -1,6 +1,6 @@
 # **C Stew’s Skyrim SE Modlist v1.0 [WIP]**
 ## Foreword
-This page serves as a complete guide to use the same mods I do, beginning from a vanilla (un-modded) Skyrim SE Installation. It covers everything from downloading mods to optimizing load order to increasing stability.
+This page serves as a complete guide to use the same mods I do, beginning from a vanilla (un-modded) Skyrim SE Installation. It covers everything from downloading mods to optimizing load order to increasing stability, and is designed to be followed by those with zero previous modding experience.
 
 This mod list uses the **now outdated 1.5.97 version** of Skyrim SE. If you have updated to or are using the Anniversary Edition, use [this mod](https://www.nexusmods.com/skyrimspecialedition/mods/57618) to downgrade to the compatible SE version. It is also incompatible with Skyrim: Legendary Edition, the original game with all DLC Add-ons, and Skyrim VR, the Virtual Reality version of Skyrim SE, due to many mods not supporting those versions of the game.
 
@@ -28,8 +28,6 @@ LOOT will be used periodically to optimize load order and solve override issues,
 **According to ESO & UI’s [SKYRIM SE MOD LISTS](https://eso-ui.com/skyrim-se/) page*
 
 *I have yet to test the full pack, so I am currently unable to vouch for the performance at this time.*
-
-This guide is designed to be as user-friendly as possible and accessible to those with zero previous modding experience!
 
 ## Pre-Installation
 I use [Vortex](https://www.nexusmods.com/about/vortex/) to install and manage mods. For a comprehensive usage and setup guide, Ultimate Immersion has an intuitive video [here](https://www.youtube.com/watch?v=EyDtcYuDd9w) on setting up your Skyrim installation and Vortex to be mod-ready. **It also covers installing SKSE64, a crucial plugin that requires manual installation. Make sure you download `Legacy SE build 2.0.20 (runtime 1.5.97)`, NOT `Latest AE Build!`**
