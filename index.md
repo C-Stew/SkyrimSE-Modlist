@@ -251,8 +251,11 @@ As useful as Vortex's sorting rules are, **they are far from perfect**. To remed
   - Next, navigate to **Unofficial Skyrim Special Edition Patch.esp**
     - It will have a notice about a compatibility patch that is not in use. Click [Circlet USSEP Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/35576?tab=files) here or in LOOT, and download **Gemling Queen Jewelry SE USSEP Circlet Fix** the same way as every other mod.
     - In LOOT, click the three dots in the top right, and select **Refresh Content**.
-  - Now, navigate back to Vortex's Plugin Menu and find **GQJ_DG_vampireamuletfix.esp**.
-    - We can't delete the plugin, so simply disable it by clicking the green `Enabled` button next to it.
+  - Now, navigate to **GQJ_DG_vampireamuletfix.esp**.
+    - LOOT recommends deleting this plugin. To do so, use File Explorer to open your Skyrim SE installation, and open the `Data` folder within it.
+    - Find the plugin and delete it. Go back to Vortex's Plugins menu
+    - Click `Deploy Now` at the top, and it will open and **External Changes** menu. Make sure it says **Save change (delete file) and click `Confirm` in the bottom right.
+    - Refresh Content in LOOT as before.
 - Next, it's time for more compatibility patches LOOT picked up on.
   - Download these fixes are for ELFX: [Here](https://www.nexusmods.com/skyrimspecialedition/mods/25498/?tab=files) and [Here](https://www.nexusmods.com/skyrimspecialedition/mods/53957?tab=files)
   - Download the [Flashing Savegames Fix](https://www.nexusmods.com/skyrimspecialedition/mods/20406/?tab=files) and [Immersive Fallen Trees Patch](https://www.nexusmods.com/skyrimspecialedition/mods/27834/?tab=files)
@@ -379,6 +382,7 @@ The following mods are some of my picks that cover aspects of the game the previ
 - [Conditional Expressions](https://www.nexusmods.com/skyrimspecialedition/mods/45148?tab=files)
   - **DO NOT USE MOD MANAGER DOWNLOAD!**
     - Use **MANUAL DOWNLOAD** and install the same way as **Total Character Makeover**.
+  - In Vortex's Plugins Menu, enable the plugin.
 - [First Person Combat Animations Overhaul 2.0](https://www.nexusmods.com/skyrimspecialedition/mods/45177?tab=files)
   - Download **FPCAO2 - SIZE MATTERS SE ALL-IN-ONE 2.01**
 - [Enhanced 1stperson Parry Animation for SSE](https://www.nexusmods.com/skyrimspecialedition/mods/20374?tab=files)
@@ -399,10 +403,38 @@ The following mods are some of my picks that cover aspects of the game the previ
 Whew! *Now* we're done downloading mods! Next, we'll optimize these mods as we did before.
 
 ## LOOT/SSEdit Part 2
+As before, start by opening **LOOT**.
+- Sort Plugins using the three lines icon at the top right.
+- **The following patches are only intended for those using ENB!**
+  - Surprisingly, we missed only one compatibility patch available [here](https://www.nexusmods.com/skyrimspecialedition/mods/41284/?tab=files), but that site lists an ENB fix for [Word Walls](https://www.nexusmods.com/skyrimspecialedition/mods/41463?tab=files) as well. Download both through Vortex as normal.
+  - *There may still be graphical issues for ENB users. Please report them to my [issues page](https://github.com/C-Stew/SkyrimSE-Modlist/issues).*
+  - Now, go back to **LOOT** and Refresh Content.
+  - Sort Plugins again as before.
+- Thankfully, no new warnings appeared, so **SSEEdit** is not necessary this time.
+- SFCO - JK's Whiterun Interiors Patch.esp still shows missing masters, but it should not need them since the all-in-one version of JK's Skyrim is in use.
+
+That wasn't too difficult! Now, close LOOT and **restart Vortex**. This will force Vortex to update its load order to match LOOT's.
+~~*Finally*, click the play icon next to **SKSE64**!~~ **WAIT!! We can't do that yet, otherwise the game tries to update!**
+- Open Steam
+- Run SKSE64 through Vortex
+  - **If you get a Steam Pop-up about updating the game, IMMEDIATELY do the following:**
+    - Click `View Updates`
+    - On the far right, click the light blue Pause Icon, then click the `X` Icon of the same color.
+    - Steam has now cancelled the update.
+- **If using ENB**, the game may freeze while starting. If a pop-up appears, click **Wait for the program to respond**
 
 ## Fixing Crashes
+**HURRAH!** Skyrim SE didn't crash! Before we can make any changes in-game, **start a new file**.
 
 ## In-game Changes
+Upon loading, NAT will inform you of new spells in your inventory. **These are necessary for ENB Users, as we will need to change a few settings.**
+- After `The Elder Scrolls V: Skyrim` dissappears, from your screen, hit `ESC` on your keyboard to open the pause menu and close the pop-up.
+- Notice the `Mod Configuration` tab. It isn't needed for our mods, but you can use it to change settings for certain mods that support it.
+- **The next settings are for ENB Users**
+- To open and close the ENB Menu, hold **Shift** and press **Enter**.
+- Once you are unbound, open the magic menu and equip the **NAT Settings** spell.
+  - Click `Graphics Options`
+  - Click `Sub-surface Scattering`, `Dawn & Dusk Natural Lighting`, and `Wet Effects` so they say `Enable`. This disables them as Ultimate Immersion's ENB implements them through ENB Shaders.
 
 ## That's It!
 Thank you for using my mod list for your modded Skyrim SE adventures! If you encounter an issue while running these mods or have a suggestion for an update to this page, please create a new issue [here](https://github.com/C-Stew/SkyrimSE-Modlist/issues). You can also submit an issue to suggest mod additions to the list.
