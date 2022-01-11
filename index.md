@@ -27,7 +27,7 @@ LOOT will be used periodically to optimize load order and solve override issues,
 
 **According to ESO & UI’s [SKYRIM SE MOD LISTS](https://eso-ui.com/skyrim-se/) page*
 
-**At 1080p with Graphics set to High and ENB enabled, I generally get 50-60fps indoors and 45-55fps outdoors.**
+**At 1080p with Graphics set to High and ENB enabled, I generally get 50-60fps indoors and 40-55fps outdoors.**
 
 ## Pre-Installation
 I use [Vortex](https://www.nexusmods.com/about/vortex/) to install and manage mods. For a comprehensive usage and setup guide, Ultimate Immersion has an intuitive video [here](https://www.youtube.com/watch?v=EyDtcYuDd9w) on setting up your Skyrim installation and Vortex to be mod-ready. **It also covers installing SKSE64, a crucial plugin that requires manual installation. Make sure you download `Legacy SE build 2.0.20 (runtime 1.5.97)`, NOT `Latest AE Build!`**
