@@ -256,6 +256,8 @@ As useful as Vortex's sorting rules are, **they are far from perfect**. To remed
     - Find the plugin and delete it. Go back to Vortex's Plugins menu
     - Click `Deploy Now` at the top, and it will open and **External Changes** menu. Make sure it says **Save change (delete file) and click `Confirm` in the bottom right.
     - Refresh Content in LOOT as before.
+  - Now, navigate to **Landscape Fixes For Grass Mods.esp**.
+    - Add a Load After rule with the Filename **Folkvangr - Grass and Landscape Overhaul.esp**.
 - Next, it's time for more compatibility patches LOOT picked up on.
   - Download these fixes are for ELFX: [Here](https://www.nexusmods.com/skyrimspecialedition/mods/25498/?tab=files) and [Here](https://www.nexusmods.com/skyrimspecialedition/mods/53957?tab=files)
   - Download the [Flashing Savegames Fix](https://www.nexusmods.com/skyrimspecialedition/mods/20406/?tab=files) and [Immersive Fallen Trees Patch](https://www.nexusmods.com/skyrimspecialedition/mods/27834/?tab=files)
@@ -271,6 +273,18 @@ As useful as Vortex's sorting rules are, **they are far from perfect**. To remed
     - Do the same with **JKs Skyrim_Cutting Room Floor_Patch.esp**, but instead enter **JKs Skyrim.esp** in the rule and save it.
   - In LOOT, navigate to **fallenbridgesSSE-Patch.esp** and add a **Load After** rule for **fallentreebridgesSSE.esp** and save it.
 - Now, refresh content and sort your load order again.
+
+Due to Vortex being stubborn, these rules must also be added within Vortex.
+- Go to the plugins menu
+- Click **Manage Rules** on the orange bar at the top.
+- Add the Load After rules as they were in LOOT.
+  - *You should have 5 rules.*
+    - landscape fixes for grass mods.esp needs to load after folkvangr - grass and landscape overhaul.esp
+    - jks skyrim_cutting room floor_patch.esp needs to load after jks skyrim.esp
+    - fallenbridgessse-patch.esp needs to load after fallentreebridgessse.esp
+    - nat.esp needs to load after enhancedlightsandfx.esp
+    - jks skyrim.esp needs to load after cutting room floor.esp
+- Click the **Sort Now** button on the orange bar at the top.
 
 Leave LOOT open, as the next step is fixing all of those yellow warnings it showed using **SSEEdit**. While SSEEdit can be run through Vortex, it is easier not to.
 
