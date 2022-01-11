@@ -1,4 +1,4 @@
-# **C Stew’s Skyrim SE Modlist v1.0 [WIP]**
+# **C Stew’s Skyrim SE Modlist v1.0**
 ## Foreword
 This page serves as a complete guide to use the same mods I do, beginning from a vanilla (un-modded) Skyrim SE Installation. It covers everything from downloading mods to optimizing load order to increasing stability, and is designed to be followed by those with zero previous modding experience.
 
@@ -22,12 +22,12 @@ LOOT will be used periodically to optimize load order and solve override issues,
 - 16GB DDR4-2933MHz
 
 **Storage Requirements:**
-- 11.8GB for Archives + 16.2GB for Mod Files + Skyrim SE (Approx. 13GB Base, 29.3GB after Mods)
-  - Total Space Requirements comes out to be **57.3GB for Skyrim SE and all mod files**. While this is a hefty number, it's fairly standard for mod lists that replace the majority of the game's textures and sounds.
+- 11.8GB for Archives + 16.2GB for Mod Files + Skyrim SE (Approx. 13GB Base, 29.4GB after Mods)
+  - Total Space Requirements comes out to be **57.4GB for Skyrim SE and all mod files**. While this is a hefty number, it's fairly standard for mod lists that replace the majority of the game's textures and sounds.
 
 **According to ESO & UI’s [SKYRIM SE MOD LISTS](https://eso-ui.com/skyrim-se/) page*
 
-*I have yet to test the full pack, so I am currently unable to vouch for the performance at this time.*
+**At 1080p with Graphics set to High and ENB enabled, I generally get 50-60fps indoors and 45-55fps outdoors.**
 
 ## Pre-Installation
 I use [Vortex](https://www.nexusmods.com/about/vortex/) to install and manage mods. For a comprehensive usage and setup guide, Ultimate Immersion has an intuitive video [here](https://www.youtube.com/watch?v=EyDtcYuDd9w) on setting up your Skyrim installation and Vortex to be mod-ready. **It also covers installing SKSE64, a crucial plugin that requires manual installation. Make sure you download `Legacy SE build 2.0.20 (runtime 1.5.97)`, NOT `Latest AE Build!`**
@@ -414,27 +414,26 @@ As before, start by opening **LOOT**.
 - SFCO - JK's Whiterun Interiors Patch.esp still shows missing masters, but it should not need them since the all-in-one version of JK's Skyrim is in use.
 
 That wasn't too difficult! Now, close LOOT and **restart Vortex**. This will force Vortex to update its load order to match LOOT's.
-~~*Finally*, click the play icon next to **SKSE64**!~~ **WAIT!! We can't do that yet, otherwise the game tries to update!**
 - Open Steam
 - Run SKSE64 through Vortex
   - **If you get a Steam Pop-up about updating the game, IMMEDIATELY do the following:**
     - Click `View Updates`
     - On the far right, click the light blue Pause Icon, then click the `X` Icon of the same color.
-    - Steam has now cancelled the update.
+    - Steam has now cancelled the update. It should not try again until Steam restarts, in which case you'll have to cancel the update again.
 - **If using ENB**, the game may freeze while starting. If a pop-up appears, click **Wait for the program to respond**
 
 ## Fixing Crashes
-**HURRAH!** Skyrim SE didn't crash! Before we can make any changes in-game, **start a new file**.
+**HURRAH!** Skyrim didn't crash! Before we can make any changes in-game, **start a new file**.
 
 ## In-game Changes
-Upon loading, NAT will inform you of new spells in your inventory. **These are necessary for ENB Users, as we will need to change a few settings.**
+Upon loading, NAT will inform you of new spell in your inventory. **This is necessary for ENB Users, as we will need to change a few settings.**
 - After `The Elder Scrolls V: Skyrim` dissappears, from your screen, hit `ESC` on your keyboard to open the pause menu and close the pop-up.
 - Notice the `Mod Configuration` tab. It isn't needed for our mods, but you can use it to change settings for certain mods that support it.
 - **The next settings are for ENB Users**
-- To open and close the ENB Menu, hold **Shift** and press **Enter**.
-- Once you are unbound, open the magic menu and equip the **NAT Settings** spell.
-  - Click `Graphics Options`
-  - Click `Sub-surface Scattering`, `Dawn & Dusk Natural Lighting`, and `Wet Effects` so they say `Enable`. This disables them as Ultimate Immersion's ENB implements them through ENB Shaders.
+  - To open and close the ENB Menu, hold **Shift** and press **Enter**.
+  - Once you are unbound, open the magic menu and equip the **NAT Settings** spell.
+    - Click `Graphics Options`
+    - Click `Sub-surface Scattering`, `Dawn & Dusk Natural Lighting`, and `Wet Effects` so they say `Enable`. This disables them as Ultimate Immersion's ENB implements them through ENB Shaders.
 
 ## That's It!
 Thank you for using my mod list for your modded Skyrim SE adventures! If you encounter an issue while running these mods or have a suggestion for an update to this page, please create a new issue [here](https://github.com/C-Stew/SkyrimSE-Modlist/issues). You can also submit an issue to suggest mod additions to the list.
