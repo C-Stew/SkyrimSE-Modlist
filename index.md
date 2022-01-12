@@ -1,4 +1,4 @@
-# **C Stew’s Skyrim SE Modlist v1.1 [WIP]**
+# **C Stew’s Skyrim SE Modlist v1.1**
 ## Foreword
 *If you are updating from an earlier version and ARE NOT reinstalling from scratch, follow the [changelog]() instead!*
 
@@ -24,12 +24,12 @@ LOOT will be used periodically to optimize load order and solve override issues,
 - 16GB DDR4-2933MHz
 
 **Storage Requirements:**
-- 11.8GB for Archives + 16.2GB for Mod Files + Skyrim SE (Approx. 13GB Base, 29.4GB after Mods)
-  - Total Space Requirements comes out to be **57.4GB for Skyrim SE and all mod files**. While this is a hefty number, it's fairly standard for mod lists that replace the majority of the game's textures and sounds.
+- 12.5GB for Archives + 17.3GB for Mod Files + Skyrim SE (Approx. 13GB Base, 30.5GB after Mods)
+  - Total Space Requirements comes out to be **60.3GB for Skyrim SE and all mod files**. While this is a hefty number, it's fairly standard for mod lists that replace the majority of the game's textures and sounds.
 
 **According to ESO & UI’s [SKYRIM SE MOD LISTS](https://eso-ui.com/skyrim-se/) page*
 
-**At 1080p with Graphics set to High and ENB enabled, I generally get 55-60fps indoors and 40-50fps outdoors.**
+**At 1080p with Graphics set to High and ENB enabled, I generally get 60+fps indoors and 40-55fps outdoors.**
 
 ## Pre-Installation
 I use [Vortex](https://www.nexusmods.com/about/vortex/) to install and manage mods. For a comprehensive usage and setup guide, Ultimate Immersion has an intuitive video [here](https://www.youtube.com/watch?v=EyDtcYuDd9w) on setting up your Skyrim installation and Vortex to be mod-ready. **It also covers installing SKSE64, a crucial plugin that requires manual installation. Make sure you download `Legacy SE build 2.0.20 (runtime 1.5.97)`, NOT `Latest AE Build!`**
@@ -413,7 +413,87 @@ The following mods are some of my picks that cover aspects of the game the previ
 - [Main Menu Spinning Skyrim Emblem](https://www.nexusmods.com/skyrimspecialedition/mods/725/?tab=files)
   - Download the main file, despite its nomenclature.
   - Select `Special Edition Steel - Average Speed` (recommended, but any works).
-- ***Append from changelog***
+- [ENB Helper SE](https://www.nexusmods.com/skyrimspecialedition/mods/23174/?tab=files)
+  - **For ENB users only**
+  - Download **ENB Helper SE 1.5 for SSE 1.5.97**
+- [HD LODs Textures SE](https://www.nexusmods.com/skyrimspecialedition/mods/3333?tab=files)
+  - Download **HD Lods Textures SE V9.0 512 - Performance friendly** from Optional Files.
+  - Load HD LODs BEFORE Majestic Mountains
+  - Hit `Deploy`
+- [Better Dialogue Controls](https://www.nexusmods.com/skyrimspecialedition/mods/1429?tab=files)
+- [Better Messagebox Controls](https://www.nexusmods.com/skyrimspecialedition/mods/1428?tab=files)
+- [Auto Hide Ammo](https://www.nexusmods.com/skyrimspecialedition/mods/1882?tab=files)
+- [SSE Display Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/34705?tab=files)
+- [D13 Faster GET UP](https://www.nexusmods.com/skyrimspecialedition/mods/5890?tab=files)
+  - Download **D13 Faster Get Up Stand Up SSE**
+- [NPC's Run and Walk at Your Pace](https://www.nexusmods.com/skyrimspecialedition/mods/2482?tab=files)
+- [Lore-Based Loading Screens](https://www.nexusmods.com/skyrimspecialedition/mods/1185?tab=files)
+- [DLL Plugin Loader](https://www.nexusmods.com/skyrimspecialedition/mods/10546?tab=files)
+  - **It is CRUCIAL you follow the below instructions, otherwise removing this mod makes the game unplayable!**
+  - **BEFORE DOWNLOADING**, navigate to your Skyrim SE installation in File Explorer (the folder with SkyrimSE.exe).
+  - Rename **binkw64.dll** to **binkw64_.dll** by right-clicking the file and selecting `Rename`.
+  - Download the .zip to the **same folder as SkyrimSE.exe**.
+  - Open **DLL Plugin Loader v1-10546-1.zip** and copy the .dll to the folder containing **SkyrimSE.exe**.
+- [.NET Script Framework](https://www.nexusmods.com/skyrimspecialedition/mods/21294?tab=files)
+- [3rd Person Camera Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/18515?tab=files)
+  - *You can change the camera settings using the Mod Configuration Menu in-game.
+- [Simple Lock-On SE](https://github.com/NasiRawon/SimpleLockOn/releases/tag/v2.1.2)
+  - The Nexus version is too outdated to work, but the GitHub version works.
+  - Download **Simple.Lock-On.v2.1.2.7z** to your Skyrim SE installation (the folder with SkyrimSE.exe).
+  - Right-click it and select `7-Zip >`, then `Extract Here`
+  - Now, open the `Data` folder, then `SKSE`, then `Plugins`.
+  - Open **SimpleLockOn.ini** with your desired text editor.
+    - Here is where the hotkey for targeting is set.
+    - Use [this link](https://www.creationkit.com/index.php?title=Input_Script#DXScanCodes) and find your desired keybind by using `CTRL+F` and typing it.
+    - Once you find it, copy the **Dec** code (numerical value to the left of the name) and paste it in place of `42` in the INI file.
+    - Save the file and close your text editor.
+- [Simple Lock-On SE Reticle Replacers](https://www.nexusmods.com/skyrimspecialedition/mods/18138?tab=files)
+  - Select `Circle with name`
+- [Diverse Werewolves Collection SE](https://www.nexusmods.com/skyrimspecialedition/mods/7009?tab=files)
+- [Follower Trap Safety](https://www.nexusmods.com/skyrimspecialedition/mods/2755?tab=files)
+- [Smaller Vanilla Cursors SE](https://www.nexusmods.com/skyrimspecialedition/mods/20617?tab=files)
+  - **100% Optional**
+  - `Right` is recommended
+- [Fences of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/5664?tab=files)
+  - Download **Fences of Skyrim**
+  - Load Fences of Skyrim AFTER all conflicting files
+  - Hit `Deploy`
+- [Realistic Boat Bobbing SE](https://www.nexusmods.com/skyrimspecialedition/mods/26080?tab=files)
+  - Download **Realistic Boat Bobbing SE** and **RBB - SMIM Meshes** (under Optional Files)
+  - Load the mod BEFORE the SMIM patch
+  - Hit `Deploy`
+- [Skyrim Priority SE AE](https://www.nexusmods.com/skyrimspecialedition/mods/50129?tab=files)
+  - Download the Main File
+- [eFPS](https://www.nexusmods.com/skyrimspecialedition/mods/54907?tab=files)
+  - Also download its [Official Patch Hub](https://www.nexusmods.com/skyrimspecialedition/mods/54998?tab=files)
+    - Leave first page unchecked
+    - Check `JK's Skyrim - Complete`
+    - Leave all other pages unchecked
+- [First Person Sneak Strafe-Walk Stutter Fix](https://www.nexusmods.com/skyrimspecialedition/mods/31165?tab=files)
+- [Crime Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/19647?tab=files)
+- [Crime Overhaul Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/35853?tab=files)
+  - Download **Crime Overhaul Fixes** and **Crime Overhaul - Cutting Room Floor Patch** (under Optional Files).
+  - Load Crime Overhaul BEFORE its fixes and Cutting Room Floor patch
+  - Hit `Deploy`
+- [Crime Bounty Decay SE](https://www.nexusmods.com/skyrimspecialedition/mods/25457?tab=files)
+- [NARC Remade](https://www.nexusmods.com/skyrimspecialedition/mods/17946?tab=files)
+  - Select `NARC`
+  - Leave patches unchecked
+- [BlockSteal](https://www.nexusmods.com/skyrimspecialedition/mods/18732?tab=files)
+  - Download **Blocksteal_010_SKSE2017**
+- [Serana's Hood Fix](https://www.nexusmods.com/skyrimspecialedition/mods/20243?tab=files)
+  - Select `Realistic`
+- [Dragon Souls to Perk Points](https://www.nexusmods.com/skyrimspecialedition/mods/2879?tab=files)
+  - Download the Main File
+- [Security Overhaul SKSE](https://www.nexusmods.com/skyrimspecialedition/mods/58224?tab=files)
+  - Select `2K Textures` (recommended) and `SSE v1.5.97`
+- [No Silly Physics Damage](https://www.nexusmods.com/skyrimspecialedition/mods/36132?tab=files)
+- [Bed Head](https://www.nexusmods.com/skyrimspecialedition/mods/8528?tab=files)
+  - Download **Bed Head V.2.3 Brown Fabric**
+  - **If using ENB**, also download the Normal Map Replacers from Optional Files.
+  - Load Bed Head BEFORE its Normal Map Replacer
+  - Hit `Deploy`
+- [Rude Imperial Soldiers Escort Prisoner fix](https://www.nexusmods.com/skyrimspecialedition/mods/894?tab=files)
 
 Whew! *Now* we're done downloading mods! Next, we'll optimize these mods as we did before.
 
@@ -428,6 +508,12 @@ As before, start by opening **LOOT**.
 - ***Append from changelog***
 - Thankfully, no new warnings appeared, so **SSEEdit** is not necessary this time. *May need revised*
 - SFCO - JK's Whiterun Interiors Patch.esp still shows missing masters, but it should not need them since the all-in-one version of JK's Skyrim is in use.
+- **Crime Overhaul.esp** has 3 ITM records that need cleaned.
+- **Realistic Boat Bobbing.esp** has two notices about unused patches. These can be ignored.
+Close LOOT and open **SSEEditQuickAutoClean.exe**
+- Find **Crime Overhaul.esp** and click its checkbox.
+- Click `OK` in the bottom right.
+- Close SSEdit once it finishes.
 
 That wasn't too difficult! Now, close LOOT and **restart Vortex**. This will force Vortex to update its load order to match LOOT's.
 - Open Steam
