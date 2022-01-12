@@ -98,4 +98,4 @@ Open **LOOT** and Sort Plugins using the three lines icon in the top right.
 Close LOOT and open **SSEEditQuickAutoClean.exe**
 - Find **Crime Overhaul.esp** and click its checkbox.
 - Click `OK` in the bottom right.
-- Close SSEdit once it finishes.
+- Close SSEEdit once it finishes.
