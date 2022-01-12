@@ -5,9 +5,6 @@
 
 *Remember, download mods through Vortex unless otherwise specified!*
 
-## Removed Mods:
-- 360 Movement Behavior
-
 ## Added Mods:
 - [ENB Helper SE](https://www.nexusmods.com/skyrimspecialedition/mods/23174/?tab=files)
   - **For ENB users only**
@@ -90,6 +87,7 @@
   - Load Bed Head BEFORE its Normal Map Replacer
   - Hit `Deploy`
 - [Rude Imperial Soldiers Escort Prisoner fix](https://www.nexusmods.com/skyrimspecialedition/mods/894?tab=files)
+- [360 Movement Behavior SE](https://www.nexusmods.com/skyrimspecialedition/mods/33139?tab=files)
 
 ## LOOT/SSEEdit
 Open **LOOT** and Sort Plugins using the three lines icon in the top right.
