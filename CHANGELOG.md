@@ -66,7 +66,6 @@
     - Check `JK's Skyrim - Complete`
     - Leave all other pages unchecked
 - [First Person Sneak Strafe-Walk Stutter Fix](https://www.nexusmods.com/skyrimspecialedition/mods/31165?tab=files)
-- [Destructible Display Cases](https://www.nexusmods.com/skyrimspecialedition/mods/13625?tab=files)
 - [Crime Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/19647?tab=files)
 - [Crime Overhaul Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/35853?tab=files)
   - Download **Crime Overhaul Fixes** and **Crime Overhaul - Cutting Room Floor Patch** (under Optional Files).
