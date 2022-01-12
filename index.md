@@ -494,6 +494,7 @@ The following mods are some of my picks that cover aspects of the game the previ
   - Load Bed Head BEFORE its Normal Map Replacer
   - Hit `Deploy`
 - [Rude Imperial Soldiers Escort Prisoner fix](https://www.nexusmods.com/skyrimspecialedition/mods/894?tab=files)
+- [360 Movement Behavior SE](https://www.nexusmods.com/skyrimspecialedition/mods/33139?tab=files)
 
 Whew! *Now* we're done downloading mods! Next, we'll optimize these mods as we did before.
 
