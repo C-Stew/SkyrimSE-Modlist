@@ -408,7 +408,6 @@ The following mods are some of my picks that cover aspects of the game the previ
   - Select `Variant 3`
 - [Skyrim Is Windy](https://www.nexusmods.com/skyrimspecialedition/mods/5836?tab=files)
 - [Actor Limit Fix](https://www.nexusmods.com/skyrimspecialedition/mods/32349?tab=files)
-  - *The requirement for .NET Framework is already met by the current Windows 10 builds.*
 - [Clean Menu](https://www.nexusmods.com/skyrimspecialedition/mods/3223?tab=files)
   - Download **Clean Menu -- All in One (30 FPS)** as 60FPS menus can cause conflicts.
 - [Main Menu Spinning Skyrim Emblem](https://www.nexusmods.com/skyrimspecialedition/mods/725/?tab=files)
