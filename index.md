@@ -1,5 +1,7 @@
-# **C Stew’s Skyrim SE Modlist v1.0**
+# **C Stew’s Skyrim SE Modlist v1.1 [WIP]**
 ## Foreword
+*If you are updating from an earlier version and ARE NOT reinstalling from scratch, follow the [changelog]() instead!*
+
 This page serves as a complete guide to use the same mods I do, beginning from a vanilla (un-modded) Skyrim SE Installation. It covers everything from downloading mods to optimizing load order to increasing stability, and is designed to be followed by those with zero previous modding experience.
 
 This mod list uses the **now outdated 1.5.97 version** of Skyrim SE. If you have updated to or are using the Anniversary Edition, use [this mod](https://www.nexusmods.com/skyrimspecialedition/mods/57618) to downgrade to the compatible SE version. It is also incompatible with Skyrim: Legendary Edition, the original game with all DLC Add-ons, and Skyrim VR, the Virtual Reality version of Skyrim SE, due to many mods not supporting those versions of the game.
@@ -404,7 +406,6 @@ The following mods are some of my picks that cover aspects of the game the previ
 - [Finally First Person Magic Animation for SSE](https://www.nexusmods.com/skyrimspecialedition/mods/20375?tab=files)
   - Download **First Person Magic Animation for SSE** under Old Files.
   - Select `Variant 3`
-- [360 Movement Behavior SE](https://www.nexusmods.com/skyrimspecialedition/mods/33139?tab=files)
 - [Skyrim Is Windy](https://www.nexusmods.com/skyrimspecialedition/mods/5836?tab=files)
 - [Actor Limit Fix](https://www.nexusmods.com/skyrimspecialedition/mods/32349?tab=files)
   - *The requirement for .NET Framework is already met by the current Windows 10 builds.*
@@ -413,6 +414,7 @@ The following mods are some of my picks that cover aspects of the game the previ
 - [Main Menu Spinning Skyrim Emblem](https://www.nexusmods.com/skyrimspecialedition/mods/725/?tab=files)
   - Download the main file, despite its nomenclature.
   - Select `Special Edition Steel - Average Speed` (recommended, but any works).
+- ***Append from changelog***
 
 Whew! *Now* we're done downloading mods! Next, we'll optimize these mods as we did before.
 
@@ -424,7 +426,8 @@ As before, start by opening **LOOT**.
   - *There may still be graphical issues for ENB users. Please report them to my [issues page](https://github.com/C-Stew/SkyrimSE-Modlist/issues).*
   - Now, go back to **LOOT** and Refresh Content.
   - Sort Plugins again as before.
-- Thankfully, no new warnings appeared, so **SSEEdit** is not necessary this time.
+- ***Append from changelog***
+- Thankfully, no new warnings appeared, so **SSEEdit** is not necessary this time. *May need revised*
 - SFCO - JK's Whiterun Interiors Patch.esp still shows missing masters, but it should not need them since the all-in-one version of JK's Skyrim is in use.
 
 That wasn't too difficult! Now, close LOOT and **restart Vortex**. This will force Vortex to update its load order to match LOOT's.
@@ -445,7 +448,8 @@ Upon loading, NAT will inform you of new spell in your inventory. **This is nece
 - Notice the `Mod Configuration` tab. It isn't needed for our mods, but you can use it to change settings for certain mods that support it.
 - **The next settings are for ENB Users**
   - To open and close the ENB Menu, hold **Shift** and press **Enter**.
-  - Once you are unbound, open the magic menu and equip the **NAT Settings** spell.
+  - **Once you are unbound**, open the magic menu and equip the **NAT Settings** spell.
+  - Cast the spell to open the NAT Configuration Menu.
     - Click `Graphics Options`
     - Click `Sub-surface Scattering`, `Dawn & Dusk Natural Lighting`, and `Wet Effects` so they say `Enable`. This disables them as Ultimate Immersion's ENB implements them through ENB Shaders.
 
