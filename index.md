@@ -1,4 +1,5 @@
 # **C Stew’s Skyrim SE Modlist v1.0**
+*Version v1.1 is in development! If you want to use my mod list, it is **greatly** recommended to wait for that release!*
 ## Foreword
 This page serves as a complete guide to use the same mods I do, beginning from a vanilla (un-modded) Skyrim SE Installation. It covers everything from downloading mods to optimizing load order to increasing stability, and is designed to be followed by those with zero previous modding experience.
 
