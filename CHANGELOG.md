@@ -1,2 +1,35 @@
-## v1.1
 *Use this to check changes across versions, or **if you are updating from an earlier version and aren't reinstalling from scratch**.*
+## v1.1
+***Save files from v1.0 are INCOMPATIBLE with v1.1!***
+- [Skyrim particle patch for ENB](http://enbseries.enbdev.com/forum/viewtopic.php?f=6&t=1499)
+  - **For ENB users only**
+  - Will require manual install
+- [HD LODs Textures SE](https://www.nexusmods.com/skyrimspecialedition/mods/3333?tab=files)
+  - Use the 512 version
+- [Better Dialogue Controls](https://www.nexusmods.com/skyrimspecialedition/mods/1429?tab=files)
+- [Better Messagebox Controls](https://www.nexusmods.com/skyrimspecialedition/mods/1428?tab=files)
+- [Auto Hide Ammo](https://www.nexusmods.com/skyrimspecialedition/mods/1882?tab=files)
+- [SSE Display Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/34705?tab=files)
+- [D13 Faster GET UP](https://www.nexusmods.com/skyrimspecialedition/mods/5890?tab=files)
+- [NPC's Run and Walk at Your Pace](https://www.nexusmods.com/skyrimspecialedition/mods/2482?tab=files)
+- [Lore-Based Loading Screens](https://www.nexusmods.com/skyrimspecialedition/mods/1185?tab=files)
+- [.NET Script Framework](https://www.nexusmods.com/skyrimspecialedition/mods/21294?tab=files)
+- [3rd Person Camera Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/18515?tab=files)
+- [Diverse Werewolves Collection SE](https://www.nexusmods.com/skyrimspecialedition/mods/7009?tab=files)
+- [Follower Trap Safety](https://www.nexusmods.com/skyrimspecialedition/mods/2755?tab=files)
+- [Smaller Vanilla Cursors SE](https://www.nexusmods.com/skyrimspecialedition/mods/20617?tab=files)
+  - **100% Optional**
+- [Fences of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/5664?tab=files)
+- [Realistic Boat Bobbing SE](https://www.nexusmods.com/skyrimspecialedition/mods/26080?tab=files)
+- [Skyrim Priority SE AE](https://www.nexusmods.com/skyrimspecialedition/mods/50129?tab=files)
+- [eFPS](https://www.nexusmods.com/skyrimspecialedition/mods/54907?tab=files)
+  - Also use it's [FOMOD Patches](https://www.nexusmods.com/skyrimspecialedition/mods/54998?tab=files)
+- [First Person Sneak Strafe-Walk Stutter Fix](https://www.nexusmods.com/skyrimspecialedition/mods/31165?tab=files)
+- [Destructible Display Cases](https://www.nexusmods.com/skyrimspecialedition/mods/13625?tab=files)
+- [Serana's Hood Fix](https://www.nexusmods.com/skyrimspecialedition/mods/20243?tab=files)
+- [Dragon Souls to Perk Points](https://www.nexusmods.com/skyrimspecialedition/mods/2879?tab=files)
+- [Security Overhaul SKSE](https://www.nexusmods.com/skyrimspecialedition/mods/58224?tab=files)
+- [No Silly Physics Damage](https://www.nexusmods.com/skyrimspecialedition/mods/36132?tab=files)
+- [Bed Head](https://www.nexusmods.com/skyrimspecialedition/mods/8528?tab=files)
+  - **If using ENB** download the Normal Map Replacers as well.
+- [Rude Imperial Soldiers Escort Prisoner fix](https://www.nexusmods.com/skyrimspecialedition/mods/894?tab=files)
