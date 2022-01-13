@@ -57,6 +57,8 @@
   - Verolevi's [Modern SmoothCam Preset](https://www.nexusmods.com/skyrimspecialedition/mods/41636?tab=files)
     - Right Alt : Toggle full body portrait mode.
     - C : Shoulder swap
+- [YY Animation Replacer - Mystic Knight](https://www.nexusmods.com/skyrimspecialedition/mods/9179?tab=files)
+  - Select `Magic` Idle Animation, `Magics` Equip/Unequip Animation, ALL boxes in **Magics** and **Casting**, and ALL BUT `Master Spell` in **Casting Animations**
 - [Look what you see](https://www.nexusmods.com/skyrimspecialedition/mods/19189?tab=files) (Follow the Camera, *maybe* hybrid?)
   - Select `ESP`
 
