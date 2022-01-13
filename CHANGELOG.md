@@ -1,4 +1,89 @@
 *Use this to check changes across versions, or **if you are updating from an earlier version and aren't reinstalling from scratch**.*
+# ~~v1.2~~ v0.3
+### *Don't like the way Third Person Play works? Not Anymore.*
+***Save files from v1.1 ARE COMPATIBLE **if [3PCO](https://www.nexusmods.com/skyrimspecialedition/mods/18515) is uninstalled properly!***
+
+## Removed Mods:
+- [360 Movement Behavior](https://www.nexusmods.com/skyrimspecialedition/mods/33139)
+  - Delete through Vortex
+  - *The game will warn you about the missing plugin when loading your save post-deletion. Continue anyway.*
+- [Simple Lock-On](https://www.nexusmods.com/skyrimspecialedition/mods/18086)
+  - Delete **SimpleLockOn.dll** and **SimpleLockOn.ini** from `Data/SKSE/Plugins` in your Skyrim SE installation.
+- [3PCO](https://www.nexusmods.com/skyrimspecialedition/mods/18515)
+  - **REQUIRES UNINSTALLATION FROM MCM IN-GAME**
+  - Do the following **before deleting the mod!**
+    - Load your most recent save with 3PCO installed.
+    - Open **Mod Configuration** from the **System tab in the Journal**
+    - Click `3PCO - 3rd Person Camera Overhaul`
+    - Set ***ALL*** settings to default by hovering over each one and pressing **R**
+    - Set ***ALL*** crosshairs to ON
+    - Go to the **Uninstall** tab and check `Uninstall Mod` and press `Enter` on your keyboard.
+    - ***Save your game at this point!***
+    - Quit to Desktop and delete the mod from Vortex
+  - *The game will warn you about the missing plugin when loading your save post-deletion. Continue anyway.*
+
+## Mod Additions
+- [Grass FPS Booster](https://www.nexusmods.com/skyrimspecialedition/mods/20082?tab=files)
+  - Select `Performance` and `No`
+  - Under Patches, select `Folkvangr`
+- [No Grassias](https://www.nexusmods.com/skyrimspecialedition/mods/35639?tab=files)
+  - Download **NoGrassias Extended**
+- [MCM Helper](https://www.nexusmods.com/skyrimspecialedition/mods/53000?tab=files)
+  - Download **MCM Helper SE (1.5)**
+
+## Third Person Enhancements (New Section)
+- [True Directional Movement](https://www.nexusmods.com/skyrimspecialedition/mods/51614?tab=files)
+- [SmoothCam](https://www.nexusmods.com/skyrimspecialedition/mods/41252?tab=files)
+  - Select `SmoothCam SSE`
+  - Select `ESP`
+- [Animation Motion Revolution](https://www.nexusmods.com/skyrimspecialedition/mods/50258?tab=files)
+- Add [Verolevi's](https://www.nexusmods.com/users/3812151?tab=user+files&BH=1) animations to cover as much as possible (*basically all but spellcasting/staffs and jumping*).
+  - [Vanargand Male Idle Walk and Run](https://www.nexusmods.com/skyrimspecialedition/mods/52488?tab=files)
+    - Ignore additional requirements
+  - [Vanargand Sprint](https://www.nexusmods.com/skyrimspecialedition/mods/53381?tab=files)
+  - [Vanargand Sneak idle walk and run](https://www.nexusmods.com/skyrimspecialedition/mods/54351?tab=files)
+  - [Vanargand Sneak Strike Attacks](https://www.nexusmods.com/skyrimspecialedition/mods/55420?tab=files)
+    - Download the Main File
+  - [Vanargand Sneak Thrust Attacks](https://www.nexusmods.com/skyrimspecialedition/mods/55031?tab=files)
+    - Download the Main File
+  - [Vanargand Sneak Archery](https://www.nexusmods.com/skyrimspecialedition/mods/56788?tab=files)
+  - [Vanargand Archery](https://www.nexusmods.com/skyrimspecialedition/mods/60323?tab=files)
+  - [Vanargand One Handed Mid Stance](https://www.nexusmods.com/skyrimspecialedition/mods/57544?tab=files)
+  - [Vanargand One Handed Normal Attacks](https://www.nexusmods.com/skyrimspecialedition/mods/58326?tab=files)
+  - [Vanargand One Handed Power Attacks](https://www.nexusmods.com/skyrimspecialedition/mods/58997?tab=files)
+  - [Leviathan Two-Handed High Stance](https://www.nexusmods.com/skyrimspecialedition/mods/47092?tab=files)
+  - [Leviathan Two-Handed Normal Attacks](https://www.nexusmods.com/skyrimspecialedition/mods/48550?tab=files)
+  - [Leviathan Two-Handed Power Attacks](https://www.nexusmods.com/skyrimspecialedition/mods/50545?tab=files)
+  - Verolevi's [Modern SmoothCam Preset](https://www.nexusmods.com/skyrimspecialedition/mods/41636?tab=files)
+    - Right Alt : Toggle full body portrait mode.
+    - C : Shoulder swap
+- [Look what you see](https://www.nexusmods.com/skyrimspecialedition/mods/19189?tab=files) (Follow the Camera, *maybe* hybrid?)
+  - Select `ESP`
+
+## LOOT/SSEEdit
+N/A
+
+## In-game Changes
+First, we need to update MCM's Menus
+- After loading your save file, open the console using **~**
+- Type `setstage ski_configmanagerinstance 1`
+- Close the console using **~** and wait until you see `SkyUI - Registered # New Menus` in the top left
+Now, go to the System tab in the Journal and open **Mod Configuration**
+- Click `Look what you see !`
+  - Hover over each of the keybinds and press **R**
+  - Go to the previous menu
+- Click `SmoothCam`
+  - Select `Presets` on the left
+  - Under **Load Preset**, check **Slot 4** and press Enter twice
+  - Go to the previous menu
+- Scroll down and click `True Directional Movement`
+  - Select `Target Lock` on the left and set your keybinds under the right menu
+  - Select `Boss Bar Widget` on the left and uncheck **Show Boss Bar**
+    - The boss bar doesn't update properly, so I don't use it.
+To ensure changes take effect, save your game and reload the save. 
+
+---
+
 # v1.1
 ### *Got bored. Scrolled through Nexus Mods for a few hours. Here's the result.*
 ***Save files from v1.0 are INCOMPATIBLE with v1.1!***
