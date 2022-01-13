@@ -1,6 +1,7 @@
 # **C Stew’s Skyrim SE Modlist v1.1**
 *Version ~~v1.2~~ v0.3 is in development!*
 > *Don't like the way Third Person Play works? Not Anymore.*
+
 ## Foreword
 *If you are updating from an earlier version and ARE NOT reinstalling from scratch, follow the [changelog](https://github.com/C-Stew/SkyrimSE-Modlist/blob/gh-pages/CHANGELOG.md) instead!*
 
