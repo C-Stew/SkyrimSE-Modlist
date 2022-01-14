@@ -59,7 +59,7 @@
     - C : Shoulder swap
 - [YY Animation Replacer - Mystic Knight](https://www.nexusmods.com/skyrimspecialedition/mods/9179?tab=files)
   - Select `Magic` Idle Animation, `Magics` Equip/Unequip Animation, ALL boxes in **Magics** and **Casting**, and ALL BUT `Master Spell` in **Casting Animations**
-- [Look what you see](https://www.nexusmods.com/skyrimspecialedition/mods/19189?tab=files) (Follow the Camera, *maybe* hybrid?)
+- [Look what you see](https://www.nexusmods.com/skyrimspecialedition/mods/19189?tab=files)
   - Select `ESP`
 
 ## LOOT/SSEEdit
@@ -70,6 +70,7 @@ First, we need to update MCM's Menus
 - After loading your save file, open the console using **~**
 - Type `setstage ski_configmanagerinstance 1`
 - Close the console using **~** and wait until you see `SkyUI - Registered # New Menus` in the top left
+
 Now, go to the System tab in the Journal and open **Mod Configuration**
 - Click `Look what you see !`
   - Hover over each of the keybinds and press **R**
@@ -82,6 +83,7 @@ Now, go to the System tab in the Journal and open **Mod Configuration**
   - Select `Target Lock` on the left and set your keybinds under the right menu
   - Select `Boss Bar Widget` on the left and uncheck **Show Boss Bar**
     - The boss bar doesn't update properly, so I don't use it.
+
 To ensure changes take effect, save your game and reload the save. 
 
 ---
