@@ -30,6 +30,8 @@
   - Download **NoGrassias Extended**
 - [MCM Helper](https://www.nexusmods.com/skyrimspecialedition/mods/53000?tab=files)
   - Download **MCM Helper SE (1.5)**
+- [Realistic Boat Bobbing Patch](https://www.nexusmods.com/skyrimspecialedition/mods/44311?tab=files)
+  - Download **Realistic Boat Bobbing - JK's Skyrim**
 
 ## Third Person Enhancements (New Section)
 - [True Directional Movement](https://www.nexusmods.com/skyrimspecialedition/mods/51614?tab=files)
