@@ -59,6 +59,7 @@
     - C : Shoulder swap
 - [YY Animation Replacer - Mystic Knight](https://www.nexusmods.com/skyrimspecialedition/mods/9179?tab=files)
   - Select `Magic` Idle Animation, `Magics` Equip/Unequip Animation, ALL boxes in **Magics** and **Casting**, and ALL BUT `Master Spell` in **Casting Animations**
+- [Light Foot - Jumping Animation SSE](https://www.nexusmods.com/skyrimspecialedition/mods/5106?tab=files)
 - [Look what you see](https://www.nexusmods.com/skyrimspecialedition/mods/19189?tab=files)
   - Select `ESP`
 
