@@ -65,6 +65,9 @@
 - [Dynamic Swimming](https://www.nexusmods.com/skyrimspecialedition/mods/34853?tab=files)
 - [Look what you see](https://www.nexusmods.com/skyrimspecialedition/mods/19189?tab=files)
   - Select `ESP`
+- [Footprints](https://www.nexusmods.com/skyrimspecialedition/mods/3808?tab=files)
+  - Download the Main File
+  - **If using ENB**, download the Optional File as well.
 
 ## LOOT/SSEEdit
 N/A
