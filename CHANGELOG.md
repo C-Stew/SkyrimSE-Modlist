@@ -68,6 +68,7 @@
 - [Footprints](https://www.nexusmods.com/skyrimspecialedition/mods/3808?tab=files)
   - Download the Main File
   - **If using ENB**, download the Optional File as well.
+- [Ice skating fixed for real](https://www.nexusmods.com/skyrimspecialedition/mods/55417?tab=files)
 
 ## LOOT/SSEEdit
 N/A
